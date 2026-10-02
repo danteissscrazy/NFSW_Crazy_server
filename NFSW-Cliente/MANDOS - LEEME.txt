@@ -1,0 +1,82 @@
+MANDOS, TECLADO Y RATON EN CRAZY SERVER (Need for Speed World)
+================================================================
+
+TECLADO (teclas de serie del World, con las habilidades en 1-2-3-4)
+--------------------------------------------------------------------
+  Conducir ........ Flechas o W A S D        Freno de mano ..... Espacio
+  Habilidades ..... 1 2 3 4  (o 8 4 6 2 del teclado numerico)
+                    El NITRO es una habilidad mas: equipala en un hueco.
+  Marchas ......... Shift izq sube / Ctrl izq baja (si llevas manual)
+  Mirar atras ..... E             Cambiar camara .... C
+  Reiniciar coche . Retroceso  (o R)
+  Mapa ............ M             Piso franco ....... H
+  Perfil .......... U             Amigos ............ O
+  Sirenas ......... L             Sonido del coche .. K
+  Pausa / menu .... Esc           Entrar a un evento  Intro
+
+RATON (garaje y concesionario)
+------------------------------
+  Girar el coche .. boton derecho pulsado y arrastrar
+  Acercar / alejar  rueda del raton
+
+El juego trae un mod de mandos (NFS_XtendedInput) que da soporte completo a los
+mandos XINPUT: Xbox 360, Xbox One, Xbox Series y cualquier mando "compatible
+Xbox" (8BitDo en modo X, genericos con interruptor X/D en X, etc.).
+Con esos: enchufar y jugar. Gatillos analogicos, vibracion, todo.
+
+MANDOS DE PLAYSTATION (DualSense de PS5, DualShock 4 de PS4)
+--------------------------------------------------------------
+Windows los ve, pero NO como XInput, asi que el mod de mandos no los lee.
+Tres caminos, del mas completo al mas simple:
+
+  OPCION A: DS4Windows (gratis, codigo abierto) - RECOMENDADA
+    Hace que Windows vea el mando de PlayStation como un mando de Xbox.
+    Soporta oficialmente DualSense (PS5) y DualShock 4 (solo mandos originales
+    de Sony, no imitaciones). Esta en la pagina de descargas del servidor:
+    DS4Windows_3.9.9_x64.zip.
+      1. Descomprime y abre DS4Windows.exe.
+      2. La primera vez pide instalar el driver "ViGEmBus": pulsa Install y
+         acepta el aviso de administrador. Si te pide el ".NET 8 Desktop
+         Runtime" o el "Visual C++ Redistributable", instala lo que te enlace.
+      3. Conecta el mando (cable o Bluetooth): tiene que aparecer en la pestana
+         "Controllers" con una luz. Si no aparece, revisa que no este abierto
+         Steam con su soporte de mandos activado (se pelean).
+      4. Deja DS4Windows abierto (minimizado vale) y abre el juego.
+    El proyecto ya no recibe actualizaciones, pero funciona en Windows 10 y 11.
+
+  OPCION A2: DSX (DualSenseX), de pago en Steam
+    Alternativa a DS4Windows pensada para el DualSense (gatillos adaptativos).
+    Misma idea: el mando aparece como Xbox. Vale igual si ya lo tienes.
+    PROBADO: DualSense de PS5 + DSX, funcionando en el juego (2026-09-06).
+    Deja DSX abierto mientras juegas.
+
+  OPCION B: sin instalar nada
+    Apagar el mod de mandos y usar el soporte nativo del juego: reconoce
+    cualquier mando, pero sin vibracion, con los dos gatillos compartiendo un
+    eje (no puedes acelerar y frenar a la vez) y con el mapeo a mano en
+    Opciones > Controles. En la carpeta del juego, renombra:
+      scripts\NFS_XtendedInput.asi  ->  scripts\NFS_XtendedInput.asi.apagado
+    Para volver, deshaz el renombrado.
+
+SI EL COCHE NO RESPONDE A NADA PERO LOS MENUS SI
+-------------------------------------------------
+El fichero scripts\NFS_XtendedInput.ini del juego esta incompleto o es de otra
+version. Descarga el cliente otra vez desde la web del servidor y descomprimelo
+ENCIMA de tu carpeta del juego, sobrescribiendo.
+
+EL JUEGO NO DETECTA EL MANDO, PERO WINDOWS SI
+-----------------------------------------------
+Le pasa a quien tiene mas de una carpeta del juego en el PC: el launcher
+arranca UNA, y el mod de mandos esta en OTRA.
+
+  1. Mira a que carpeta apunta tu launcher: el fichero Settings.ini que hay
+     junto a SBRW.Launcher.exe, linea "InstallationDirectory".
+  2. Entra en ESA carpeta y comprueba que existe:
+         scripts\NFS_XtendedInput.asi
+     Si esa carpeta scripts esta vacia, el juego no puede leer ningun mando,
+     por muy bien que Windows lo vea.
+  3. La solucion buena: borra esa carpeta, descarga el cliente de la web y
+     apunta el launcher al sitio donde lo descomprimas.
+
+El launcher y el juego son DOS carpetas distintas. El launcher nunca va dentro
+de la carpeta del juego.

@@ -1,0 +1,7 @@
+﻿Crazy Server - cliente v2 - variante A - 2026-09-05 02:18
+Persecuciones: Immersive Pursuit (polis realistas, sin Rhinos)
+Comun: Naturalistic Lighting 7.0 + Immersive Traffic Overhaul + Realistic Collision Physics (TerraSphere_385)
+
+attributes.bin    3469752 B  sha1 2BF10363E094   (original   3448768 B  sha1 BF40CC96101F)
+commerce.bin      4729472 B  sha1 B5ADF7B62816   (original   4729536 B  sha1 F1105A8CD403)
+FE_ATTRIB.bin        7216 B  sha1 BF50C77C7856   (original      7296 B  sha1 7087810A8860)variante A + 06-trafpizza.nfsms (copy_node pvehicle traf4dseda -> trafpizza, MODEL Collision/Visual TRAFPIZZA) aplicado con VltEd 4.6 el 2026-09-05 21:46
