@@ -1,0 +1,195 @@
+===============================================================
+                     C R A Z Y   S E R V E R
+              Need for Speed World para LAN party
+===============================================================
+
+  Esta carpeta ES el servidor entero. No hay que instalar nada:
+  Java, MySQL y Python viajan dentro.
+
+  El SERVIDOR funciona sin internet. Los JUGADORES si lo necesitan:
+  su launcher comprueba unos modulos en internet cada vez que le
+  dan a jugar (5 MB la primera vez, nada las siguientes). Son los
+  que hacen que se vean unos a otros conduciendo y que funcionen
+  las habilidades. Sin internet, el launcher no arranca el juego.
+  Mira el ultimo apartado si te quedas sin conexion el dia de la
+  fiesta.
+
+
+---------------------------------------------------------------
+  ARRANCARLO  (lo unico que hace falta saber)
+---------------------------------------------------------------
+
+  0. Descomprime esta carpeta en un sitio CORTO y NORMAL, por
+     ejemplo  C:\CrazyServer\nfsw-lan-server
+     NUNCA dentro de OneDrive (ni en un Escritorio o Documentos que
+     OneDrive sincronice): la base de datos no puede trabajar ahi.
+     Tampoco en Archivos de programa.
+
+  1. Doble clic en                 Crazy Server.bat
+
+  2. Solo la PRIMERA vez en este PC, pulsa   "Preparar PC"
+     (Windows pedira permiso de administrador: es para abrir
+      los puertos del firewall. Tarda un par de minutos.)
+
+  3. Pulsa                          ARRANCAR
+
+  4. Espera a que las seis luces se pongan VERDES.
+     Tarda entre uno y dos minutos. Es normal.
+
+  Ya esta. El servidor esta funcionando.
+
+
+---------------------------------------------------------------
+  LO QUE LES DICES A LOS JUGADORES
+---------------------------------------------------------------
+
+  El panel muestra dos direcciones. El boton "Copiar" las deja
+  listas para pegar en el chat del grupo.
+
+    Servidor  ->  se pega en el launcher del juego
+    Web       ->  se abre en el navegador: ahi se registran
+                  y se descargan el juego y el launcher
+
+  Las direcciones CAMBIAN cada vez que se monta la fiesta en
+  otro sitio, porque cambia la IP. Mira siempre el panel.
+
+
+---------------------------------------------------------------
+  QUE HACE CADA BOTON
+---------------------------------------------------------------
+
+  ARRANCAR / PARAR   Levanta o apaga el servidor.
+
+  Web                La pagina de registro y descargas.
+  Radio              Cinco emisoras que suenan a la vez para
+                     todos, sincronizadas. Eurobeat, Underground 2,
+                     Most Wanted, mezcla, y una donde la gente
+                     sube sus propias canciones.
+  Mapa en vivo       Donde esta cada uno, en tiempo real. Solo salen
+                     los que estan conduciendo por la ciudad; en el
+                     garaje o en los menus no aparecen.
+  Mas buscados       Ranking de la fiesta.
+  Pilotos            Quien esta registrado y quien esta DENTRO del
+                     juego ahora mismo.
+
+  Megafono           Manda un aviso a TODOS los que esten dentro.
+  Tesoro             Lanza una busqueda del tesoro con premios.
+                     Lanzala ANTES de que entre la gente: quien ya
+                     esta dentro sigue con la caza anterior hasta
+                     que salga y vuelva a entrar.
+  Cuentas            Pregunta que quieres: VER los pilotos (abre la
+                     web) o CREAR las 50 cuentas de fiesta con sus
+                     tarjetas para imprimir y repartir.
+  Preparar PC        El paso 2 de arriba. Solo la primera vez.
+
+  Y desde PowerShell, dentro de esta carpeta, para hacer de admin:
+
+      .\scripts\regalo.ps1 PILOTO                      ver su ficha
+      .\scripts\regalo.ps1 -Jugador PILOTO -Dinero 1000000
+      .\scripts\regalo.ps1 -Jugador PILOTO -Creditos 500000
+      .\scripts\regalo.ps1 -Listar corolla             catalogo de coches
+      .\scripts\regalo.ps1 -Jugador PILOTO -Coche COROLLA_BIC
+
+  (anade  -Anunciar  y lo canta por el megafono. El dinero se ve al
+   acabar la siguiente carrera; los creditos y los coches, al salir
+   del juego y volver a entrar.)
+
+
+---------------------------------------------------------------
+  SI ALGO NO VA
+---------------------------------------------------------------
+
+  Fiate del cartel de arriba a la derecha, no de las luces sueltas.
+      Si pone EN MARCHA, esta listo AUNQUE quede alguna luz gris.
+      La del chat es la unica que puede faltar sin pasar nada: se
+      juega igual, solo que sin chat ni invitaciones. El panel te
+      lo dice con todas las letras.
+
+  Pone HA FALLADO
+      Mira la ventana negra que se abrio al pulsar ARRANCAR: ahi
+      esta el motivo escrito. Luego PARAR, diez segundos, y
+      ARRANCAR otra vez.
+      Si se repite, pulsa "Diagnostico" (abajo a la izquierda del
+      panel): deja un fichero logs\diagnostico-<fecha>.txt con todo
+      lo que hace falta para saber que pasa. Mandaselo al
+      organizador tal cual. Las causas tipicas en un PC nuevo:
+        - la carpeta esta dentro de OneDrive (moverla a C:\CrazyServer)
+        - Windows tiene "reservado" un puerto (Hyper-V/WSL): como
+          administrador,  net stop winnat  y  net start winnat
+        - otro programa usa el puerto 3306, 8080 o 5000 (el
+          diagnostico dice cual)
+        - poca RAM: con menos de 4 GB el servidor va muy justo
+
+  Entran al juego pero NO SE VEN entre ellos
+      Casi siempre es una de estas dos, por este orden:
+      1) Ese PC no tiene internet, asi que su launcher no pudo
+         bajarse los modulos. Sin ellos el juego arranca igual,
+         pero en solitario y sin habilidades. Conectalo a internet,
+         cierra el juego y el launcher, y vuelve a darle a jugar.
+      2) Falta abrir el firewall en el PC del servidor:
+         pulsa "Preparar PC".
+      Para comprobarlo de un vistazo: abre "Mapa en vivo" mientras
+      alguien conduce por la ciudad. Si no aparece, es esto.
+
+  Las HABILIDADES (1 2 3 4) no hacen nada
+      Lo mismo: ese PC se quedo sin los modulos del launcher. Y
+      revisa que tenga habilidades equipadas (Refugio > Powerups):
+      las que trae por defecto solo sirven dentro de una carrera.
+
+  El launcher no encuentra el servidor
+      Comprueba que estan en la MISMA red (mismo router o
+      mismo cable) y que la direccion es la que dice el panel.
+
+  La IP que sale no es la de la LAN
+      Pasa si el PC tiene una VPN de malla (ZeroTier, Tailscale,
+      Radmin, Hamachi...): suelen dar IPs que empiezan por 10. o
+      por 100. y por ellas solo llegan los de esa VPN. Cierra la
+      VPN y pulsa PARAR y ARRANCAR. Si aun asi sale mal, fuerza la
+      IP a mano desde PowerShell, dentro de esta carpeta:
+
+          .\scripts\start.ps1 -Ip 192.168.1.50
+
+      (con la IP de verdad de este PC en la LAN, la que se ve
+       en la configuracion de red o con "ipconfig").
+
+  Cierro el panel y se apaga todo
+      No. El servidor sigue. El panel es solo el mando a
+      distancia: puedes cerrarlo y abrirlo cuando quieras.
+
+  Para el detalle de todo lo demas:  README.md
+  Contrasenas y puertos:             credenciales.txt
+
+
+---------------------------------------------------------------
+  ANTES DE LA FIESTA, SI PUEDES
+---------------------------------------------------------------
+
+  Pruebalo un dia antes con dos ordenadores. Que dos personas
+  entren, se vean en el mundo abierto y hagan una carrera.
+  Es la unica prueba que de verdad vale.
+
+  Y comprueba que el sitio tiene internet. Sin el, los launchers
+  no arrancan el juego (ver el aviso del principio).
+
+
+---------------------------------------------------------------
+  SI EL DIA DE LA FIESTA NO HAY INTERNET
+---------------------------------------------------------------
+
+  Se puede salvar, pero hay que prepararlo ANTES, con internet:
+
+  1. Que cada PC arranque el juego una vez con internet. Los
+     modulos se quedan guardados en su carpeta del juego y ya no
+     se vuelven a descargar... pero el launcher SIGUE consultando
+     la lista en internet antes de arrancar, asi que esto solo
+     vale si la conexion se cae a mitad de la fiesta, no si no la
+     hay desde el principio.
+
+  2. La solucion de verdad es recompilar el launcher apuntando a
+     este servidor en vez de a internet. Los ficheros que hacen
+     falta ya estan guardados y verificados en:
+         _build\modnet-mirror\launcher-modules\
+     Es una tarde de trabajo. Si sabes que no vas a tener
+     conexion, pidelo con tiempo.
+
+===============================================================

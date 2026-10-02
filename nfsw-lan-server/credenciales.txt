@@ -1,0 +1,114 @@
+================================================================
+  CRAZY SERVER - NFS WORLD LAN
+  Credenciales y puertos
+================================================================
+
+Esto esta en texto plano A PROPOSITO. Es una LAN cerrada de evento,
+no un servidor en internet: aqui vale mas que cualquiera pueda operar
+el servidor que proteger nada. Si algun dia esto se expone fuera de la
+LAN, hay que cambiarlo TODO primero.
+
+
+BASE DE DATOS
+----------------------------------------------------------------
+  Servidor          127.0.0.1 : 3306
+  Esquema juego     SOAPBOX
+  Esquema chat      openfire
+
+  Usuario           nfsw_user
+  Contrasena        LanParty2026!
+
+  Root              root
+  Contrasena root   LanParty2026!
+
+  Conectar a mano:
+    mysql -u nfsw_user -pLanParty2026! SOAPBOX
+
+
+PUERTOS
+----------------------------------------------------------------
+  Abiertos a los jugadores (los abre setup.ps1 en el firewall):
+
+    8080/tcp    Servidor del juego (la API, /Engine.svc)
+    5222/tcp    Chat XMPP e invitaciones
+    9999/udp    Mundo abierto  <- si falta, entran pero NO SE VEN
+    9998/udp    Carreras       <- si falta, no pueden competir
+    5000/tcp    Registro y descargas (la web)
+
+  Solo del servidor (NO abrir al exterior):
+
+    3306/tcp    MySQL
+    9090/tcp    Consola de administracion de Openfire
+    9091/tcp    Lo mismo, por HTTPS
+
+
+LO QUE SE DA A LOS JUGADORES
+----------------------------------------------------------------
+  La IP cambia en cada evento. Para saber la de hoy:  .\status.ps1
+
+    Servidor (en el launcher)   http://<IP>:8080/Engine.svc
+    Registro y descargas        http://<IP>:5000
+
+  El launcher no pide nada mas: se anade con el boton "+", o se reparte
+  ya configurado con el Servers-Custom.json que genera start.ps1.
+
+
+CHAT (OPENFIRE)
+----------------------------------------------------------------
+  Consola           http://localhost:9090
+  Administrador     admin
+  Contrasena        admin          <- la de fabrica, sin cambiar
+
+  Base de datos     HSQLDB embebida en server\openfire\embedded-db\
+                    (no usa MySQL: una dependencia menos)
+
+  Token de la API REST:  nfsw-lan-openfire-token
+
+  OJO - ese token se usa para DOS cosas:
+    1. El secreto de la API REST con la que el servidor del juego controla
+       el chat (cabecera "Authorization").
+    2. La contrasena del usuario XMPP interno "sbrw.engine.engine", que es
+       con el que el servidor del juego se conecta al chat.
+  Esta guardado en la tabla `parameter`, fila OPENFIRE_TOKEN. Cambiarlo
+  obliga a tocar tambien la base de datos de Openfire (hay una utilidad
+  en server\openfire\bin\extra\ para eso, con Openfire parado).
+
+  EL DOMINIO XMPP TIENE QUE SER LA IP DEL EVENTO. Openfire anuncia un
+  dominio (en conf\openfire.xml) que debe coincidir EXACTAMENTE con el
+  parametro XMPP_IP de la base de datos. Si no coinciden, el servidor del
+  juego NI SIQUIERA ARRANCA (falla la autenticacion y el puerto 8080 nunca
+  abre). start.ps1 se encarga de reescribir los dos en cada arranque.
+
+
+PANEL DE CONTROL DEL ORGANIZADOR
+----------------------------------------------------------------
+  Megafono (avisos a todos)   .\scripts\megafono.ps1
+  Busqueda del tesoro         .\scripts\tesoro.ps1
+  Mapa en vivo                http://<IP>:5000/mapa
+
+  Token de avisos    CrazyMega2026
+  Token de admin     CrazyAdmin2026
+
+  Estos dos permiten mandar mensajes a todo el mundo y cambiar reglas del
+  servidor en caliente. No los repartas.
+
+
+CUENTAS DE JUGADOR
+----------------------------------------------------------------
+  Se generan con:  .\scripts\crear-cuentas.ps1
+
+  Salen en logs\cuentas\ como CSV y como tarjetas imprimibles.
+  Formato por defecto:  piloto01@crazy.party / turbo-037
+
+  AVISO SOBRE EL CORREO: el servidor valida el formato y exige un dominio de
+  primer nivel REAL (.com, .es, .party, .gg...). Rechaza inventados como ".sss" y
+  similares con "Invalid Email Format". El correo no tiene que existir de
+  verdad: piloto01@crazy.party es perfectamente valido.
+
+  AVISO SOBRE LAS CONTRASENAS: el juego las envia con un cifrado antiguo
+  (SHA-1, sin sal) y por HTTP sin cifrar. En una LAN cerrada da igual,
+  pero que nadie use una contrasena que use de verdad en otro sitio.
+
+  AVISO SOBRE LOS NOMBRES DE PILOTO: solo MAYUSCULAS y NUMEROS, de 3 a 15
+  caracteres. Ni minusculas, ni espacios, ni acentos, ni guiones.
+  Va impreso en las tarjetas porque es lo que mas atasca el primer arranque.
