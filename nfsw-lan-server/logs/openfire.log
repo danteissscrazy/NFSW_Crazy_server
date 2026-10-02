@@ -1,0 +1,7 @@
+Openfire 4.5.0 Alpha [Oct 2, 2026, 2:24:10 AM]
+Consola de administración escuchando en http://192.168.100.29:9090
+Successfully loaded plugin 'admin'.
+Successfully loaded plugin 'nonsaslauthentication'.
+Successfully loaded plugin 'search'.
+Successfully loaded plugin 'restapi'.
+Finished processing all plugins.

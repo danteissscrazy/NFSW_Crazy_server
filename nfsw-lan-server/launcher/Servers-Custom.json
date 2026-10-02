@@ -1,0 +1,7 @@
+[
+    {
+        "category":  "CUSTOM",
+        "name":  "Crazy Server",
+        "ip_address":  "http://192.168.100.29:8080/Engine.svc"
+    }
+]

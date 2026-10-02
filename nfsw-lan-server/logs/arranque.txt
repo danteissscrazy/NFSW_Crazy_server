@@ -1,0 +1,269 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261002022154
+Nombre de usuario: CRAZYDESKTOP\Danteiscrazy
+Usuario RunAs: CRAZYDESKTOP\Danteiscrazy
+Nombre de la configuración: 
+Máquina: CRAZYDESKTOP (Microsoft Windows NT 10.0.26100.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -ExecutionPolicy Bypass -File E:\NFSW\nfsw-lan-server\scripts\start.ps1
+Id. de proceso: 20272
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+  NFS World LAN - Arrancando servidor
+  -----------------------------------
+  [ok] IP de esta maquina: 192.168.100.29
+
+  1. BASE DE DATOS
+  ... Arrancando MySQL...
+  [ok] MySQL escuchando en 3306.
+
+  2. DIRECCIONES PARA LOS CLIENTES
+  [ok] Direcciones actualizadas a 192.168.100.29 (juego, mundo abierto, carreras y chat).
+  [ok] Sesiones de la vez anterior limpiadas.
+
+  3. CHAT XMPP
+  [ok] Dominio XMPP ajustado: 192.168.1.235 -> 192.168.100.29.
+  ... Arrancando Openfire...
+  [ok] Openfire escuchando en 5222.
+PS>ErrorTerminación(Invoke-WebRequest): "Error en el servidor remoto: (401) No autorizado."
+PS>ErrorTerminación(Invoke-WebRequest): "Error en el servidor remoto: (401) No autorizado."
+  [ok] Openfire listo (plugins cargados).
+
+  4. SERVIDOR DEL JUEGO
+  ... Arrancando el servidor del juego (tarda entre 30 s y 2 min)...
+PS>ErrorTerminación(Invoke-WebRequest): "Error404 - Not Found"
+PS>ErrorTerminación(Invoke-WebRequest): "Error404 - Not Found"
+**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261002022227
+Nombre de usuario: CRAZYDESKTOP\Danteiscrazy
+Usuario RunAs: CRAZYDESKTOP\Danteiscrazy
+Nombre de la configuración: 
+Máquina: CRAZYDESKTOP (Microsoft Windows NT 10.0.26100.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -ExecutionPolicy Bypass -File E:\NFSW\nfsw-lan-server\scripts\stop.ps1
+Id. de proceso: 21788
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+  NFS World LAN - Parando servidor
+  --------------------------------
+
+    Registro y descargas     ya estaba parado
+    Carreras                 ya estaba parado
+    Mundo abierto            ya estaba parado
+**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261002022249
+Nombre de usuario: CRAZYDESKTOP\Danteiscrazy
+Usuario RunAs: CRAZYDESKTOP\Danteiscrazy
+Nombre de la configuración: 
+Máquina: CRAZYDESKTOP (Microsoft Windows NT 10.0.26100.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -ExecutionPolicy Bypass -File E:\NFSW\nfsw-lan-server\scripts\stop.ps1
+Id. de proceso: 21364
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+  NFS World LAN - Parando servidor
+  --------------------------------
+
+    Registro y descargas     ya estaba parado
+    Carreras                 ya estaba parado
+    Mundo abierto            ya estaba parado
+  [ok] Servidor del juego detenido (forzado)
+  [ok] Chat XMPP detenido (forzado)
+  ... Pidiendo a MySQL que cierre ordenadamente...
+  [ok] Base de datos detenido
+
+  [ok] Todo parado.
+
+**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261002022345
+Nombre de usuario: CRAZYDESKTOP\Danteiscrazy
+Usuario RunAs: CRAZYDESKTOP\Danteiscrazy
+Nombre de la configuración: 
+Máquina: CRAZYDESKTOP (Microsoft Windows NT 10.0.26100.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -ExecutionPolicy Bypass -File E:\NFSW\nfsw-lan-server\scripts\setup.ps1
+Id. de proceso: 8632
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+  NFS World LAN - Preparacion del servidor
+  ----------------------------------------
+
+  1. ARTEFACTOS DEL SERVIDOR
+
+  [ok] Servidor del juego     core.jar
+  [ok] Mundo abierto          freeroamd.exe
+  [ok] Carreras               race.exe
+  [ok] Chat XMPP              openfire
+  [ok] Desbloqueados 241 ficheros marcados como descargados de internet.
+  [ok] Ningun puerto del servidor reservado por Windows.
+  [ok] RAM: 31.7 GB.
+  [ok] Java: E:\NFSW\nfsw-lan-server\runtime\jre\bin\java.exe
+
+  2. FIREWALL DE WINDOWS
+
+  [ok] NFSW LAN - Servidor del juego (HTTP) (8080/tcp) (creada)
+  [ok] NFSW LAN - Chat XMPP (5222/tcp) (creada)
+  [ok] NFSW LAN - Registro y descargas (5000/tcp) (creada)
+  [ok] NFSW LAN - Mapa en vivo (6996/tcp) (creada)
+  [ok] NFSW LAN - Mundo abierto (9999/udp) (creada)
+  [ok] NFSW LAN - Carreras (9998/udp) (creada)
+
+  3. BASE DE DATOS
+
+  [ok] La base de datos ya estaba inicializada (no se toca).
+  ... Arrancando MySQL temporalmente...
+  [ok] MySQL arrancado.
+  ... Creando esquemas y usuario...
+  [ok] Esquemas 'SOAPBOX' y 'openfire' listos, usuario 'nfsw_user' creado.
+  ... Parando el MySQL temporal...
+  [ok] MySQL temporal parado.
+
+  4. WEB DE REGISTRO
+
+  [ok] Python: E:\NFSW\nfsw-lan-server\runtime\python\python.exe
+  [ok] Flask disponible.
+
+
+  Preparacion terminada
+  ---------------------
+
+    Siguiente paso:  .\start.ps1
+    Y para comprobar: .\status.ps1
+
+**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261002022404
+Nombre de usuario: CRAZYDESKTOP\Danteiscrazy
+Usuario RunAs: CRAZYDESKTOP\Danteiscrazy
+Nombre de la configuración: 
+Máquina: CRAZYDESKTOP (Microsoft Windows NT 10.0.26100.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -ExecutionPolicy Bypass -File E:\NFSW\nfsw-lan-server\scripts\start.ps1
+Id. de proceso: 22704
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+  NFS World LAN - Arrancando servidor
+  -----------------------------------
+  [ok] IP de esta maquina: 192.168.100.29
+
+  1. BASE DE DATOS
+  ... Arrancando MySQL...
+  [ok] MySQL escuchando en 3306.
+
+  2. DIRECCIONES PARA LOS CLIENTES
+  [ok] Direcciones actualizadas a 192.168.100.29 (juego, mundo abierto, carreras y chat).
+  [ok] Sesiones de la vez anterior limpiadas.
+
+  3. CHAT XMPP
+  [ok] Dominio XMPP: 192.168.100.29 (coincide con la IP de hoy).
+  ... Arrancando Openfire...
+  [ok] Openfire escuchando en 5222.
+PS>ErrorTerminación(Invoke-WebRequest): "Error en el servidor remoto: (401) No autorizado."
+PS>ErrorTerminación(Invoke-WebRequest): "Error en el servidor remoto: (401) No autorizado."
+  [ok] Openfire listo (plugins cargados).
+
+  4. SERVIDOR DEL JUEGO
+  ... Arrancando el servidor del juego (tarda entre 30 s y 2 min)...
+PS>ErrorTerminación(Invoke-WebRequest): "Error404 - Not Found"
+PS>ErrorTerminación(Invoke-WebRequest): "Error404 - Not Found"
+PS>ErrorTerminación(Invoke-WebRequest): "Error404 - Not Found"
+PS>ErrorTerminación(Invoke-WebRequest): "Error404 - Not Found"
+PS>ErrorTerminación(Invoke-WebRequest): "Error404 - Not Found"
+  [ok] Servidor del juego respondiendo en 8080.
+
+  5. MUNDO ABIERTO Y CARRERAS
+  [ok] Mundo abierto escuchando en 9999/udp.
+  [ok] Carreras escuchando en 9998/udp.
+
+  6. REGISTRO Y DESCARGAS
+  [ok] Web escuchando en 5000.
+
+  7. LAUNCHER
+  [ok] Servidor apuntando a 192.168.100.29 (con instalador para el launcher).
+  [ok] Launcher-LAN.zip actualizado (9.9 MB, listo para descargar desde la web).
+
+
+  Servidor arrancado
+  ------------------
+
+    Da esto a los jugadores:
+
+      Servidor
+http://192.168.100.29:8080/Engine.svc
+      Registro
+http://192.168.100.29:5000
+
+    Comprobar estado:  .\status.ps1
+    Parar el servidor: .\stop.ps1
+
+**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261002022717
+Nombre de usuario: CRAZYDESKTOP\Danteiscrazy
+Usuario RunAs: CRAZYDESKTOP\Danteiscrazy
+Nombre de la configuración: 
+Máquina: CRAZYDESKTOP (Microsoft Windows NT 10.0.26100.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -ExecutionPolicy Bypass -File E:\NFSW\nfsw-lan-server\scripts\stop.ps1
+Id. de proceso: 22908
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+  NFS World LAN - Parando servidor
+  --------------------------------
+
+  [ok] Registro y descargas detenido (forzado)
+  [ok] Carreras detenido (forzado)
+  [ok] Mundo abierto detenido (forzado)
+  [ok] Servidor del juego detenido (forzado)
+  [ok] Chat XMPP detenido (forzado)
+  ... Pidiendo a MySQL que cierre ordenadamente...
+  [ok] Base de datos detenido
+
+  [ok] Todo parado.
+

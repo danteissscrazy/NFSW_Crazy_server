@@ -1,0 +1,6 @@
+Picked up JAVA_TOOL_OPTIONS: -Djava.net.preferIPv4Stack=true -Dfile.encoding=UTF-8
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.jboss.invocation.proxy.AbstractProxyFactory$1 (jar:file:/C:/Users/Danteiscrazy/AppData/Local/Temp/thorntailjboss-invocation-1.5.2.Final17878354906585163964.jar!/) to method java.lang.Object.clone()
+WARNING: Please consider reporting this to the maintainers of org.jboss.invocation.proxy.AbstractProxyFactory$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release

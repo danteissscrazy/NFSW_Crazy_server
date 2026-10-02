@@ -1,0 +1,1082 @@
+2026-10-02 02:24:19,677 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                     Mail - STABLE          io.thorntail:mail:2.6.0.Final
+2026-10-02 02:24:19,707 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:     MicroProfile Metrics - STABLE          io.thorntail:microprofile-metrics:2.6.0.Final
+2026-10-02 02:24:19,707 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:        CDI Configuration - STABLE          io.thorntail:cdi-config:2.6.0.Final
+2026-10-02 02:24:19,708 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                 Undertow - STABLE          io.thorntail:undertow:2.6.0.Final
+2026-10-02 02:24:19,708 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                 Remoting - STABLE          io.thorntail:remoting:2.6.0.Final
+2026-10-02 02:24:19,709 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                      JMX - STABLE          io.thorntail:jmx:2.6.0.Final
+2026-10-02 02:24:19,709 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:               Infinispan - STABLE          io.thorntail:infinispan:2.6.0.Final
+2026-10-02 02:24:19,709 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:             Transactions - STABLE          io.thorntail:transactions:2.6.0.Final
+2026-10-02 02:24:19,709 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                      EJB - STABLE          io.thorntail:ejb:2.6.0.Final
+2026-10-02 02:24:19,709 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                      CDI - STABLE          io.thorntail:cdi:2.6.0.Final
+2026-10-02 02:24:19,709 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                      JPA - STABLE          io.thorntail:jpa:2.6.0.Final
+2026-10-02 02:24:19,710 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                  Elytron - STABLE          io.thorntail:elytron:2.6.0.Final
+2026-10-02 02:24:19,710 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:              Datasources - STABLE          io.thorntail:datasources:2.6.0.Final
+2026-10-02 02:24:19,710 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:       Management Console - STABLE          io.thorntail:management-console:2.6.0.Final
+2026-10-02 02:24:19,710 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                   JAX-RS - STABLE          io.thorntail:jaxrs:2.6.0.Final
+2026-10-02 02:24:19,711 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                  Logging - STABLE          io.thorntail:logging:2.6.0.Final
+2026-10-02 02:24:19,711 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:      MicroProfile Health - STABLE          io.thorntail:microprofile-health:2.6.0.Final
+2026-10-02 02:24:19,711 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:               Management - STABLE          io.thorntail:management:2.6.0.Final
+2026-10-02 02:24:19,711 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                      JCA - STABLE          io.thorntail:jca:2.6.0.Final
+2026-10-02 02:24:19,711 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                 Logstash - STABLE          io.thorntail:logstash:2.6.0.Final
+2026-10-02 02:24:19,711 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:          Bean Validation - STABLE          io.thorntail:bean-validation:2.6.0.Final
+2026-10-02 02:24:19,713 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:      MicroProfile Config - STABLE          io.thorntail:microprofile-config:2.6.0.Final
+2026-10-02 02:24:19,713 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:      Hibernate Validator - STABLE          io.thorntail:hibernate-validator:2.6.0.Final
+2026-10-02 02:24:19,713 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:         JAX-RS with JAXB - STABLE          io.thorntail:jaxrs-jaxb:2.6.0.Final
+2026-10-02 02:24:19,713 INFO  [org.wildfly.swarm] (main) THORN0013: Installed fraction:                Hibernate - STABLE          io.thorntail:hibernate:2.6.0.Final
+2026-10-02 02:24:21,219 INFO  [org.wildfly.swarm.datasources] (main) THORN1003: Auto-detected JDBC driver for mysql
+2026-10-02 02:24:21,234 INFO  [org.wildfly.swarm.datasources] (main) THORN1003: Auto-detected JDBC driver for h2
+2026-10-02 02:24:21,240 INFO  [org.wildfly.swarm.jmx] (main) JMX not configured for remote access
+2026-10-02 02:24:21,591 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2026-10-02 02:24:21,598 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2026-10-02 02:24:21,656 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Thorntail 2.6.0.Final (WildFly Core 10.0.3.Final) starting
+2026-10-02 02:24:21,693 INFO  [org.wildfly.swarm] (MSC service thread 1-2) THORN0019: Install MSC service for command line args: []
+2026-10-02 02:24:21,868 INFO  [org.wildfly.swarm.microprofile.health] (MSC service thread 1-5) The monitoring endpoints have no security realm configuration
+2026-10-02 02:24:22,345 INFO  [org.wildfly.security] (ServerService Thread Pool -- 4) ELY00001: WildFly Elytron version 1.10.4.Final
+2026-10-02 02:24:22,545 WARN  [io.undertow] (ServerService Thread Pool -- 22) UT005060: Predicate exists['%{o,Content-Type}'] and regex[pattern='(?:application/javascript|text/css|text/html|text/xml|application/json|application/xml)(;.*)?', value=%{o,Content-Type}, full-match=true] uses old style square braces to define predicates, which will be removed in a future release. predicate[value] should be changed to predicate(value)
+2026-10-02 02:24:22,548 WARN  [io.undertow] (ServerService Thread Pool -- 22) UT005060: Predicate exists['%{o,Content-Type}'] and regex[pattern='(?:application/javascript|text/css|text/html|text/xml|application/json|application/xml)(;.*)?', value=%{o,Content-Type}, full-match=true] uses old style square braces to define predicates, which will be removed in a future release. predicate[value] should be changed to predicate(value)
+2026-10-02 02:24:22,627 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 33) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2026-10-02 02:24:22,629 INFO  [org.wildfly.extension.microprofile.config] (ServerService Thread Pool -- 27) EMPCONF0001: Activating Eclipse MicroProfile Config Subsystem
+2026-10-02 02:24:22,643 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) WFLYCLINF0001: Activating Infinispan subsystem.
+2026-10-02 02:24:22,645 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 42) WFLYNAM0001: Activating Naming Subsystem
+2026-10-02 02:24:22,645 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 43) WFLYSEC0002: Activating Security Subsystem
+2026-10-02 02:24:22,651 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2026-10-02 02:24:22,668 INFO  [org.xnio] (ServerService Thread Pool -- 37) XNIO version 3.7.3.Final
+2026-10-02 02:24:22,673 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 35) WFLYRS0016: RESTEasy version 3.9.1.Final
+2026-10-02 02:24:22,677 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.17.Final)
+2026-10-02 02:24:22,725 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.0.27.Final starting
+2026-10-02 02:24:22,736 INFO  [org.xnio.nio] (ServerService Thread Pool -- 37) XNIO NIO Implementation Version 3.7.3.Final
+2026-10-02 02:24:22,747 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2026-10-02 02:24:22,752 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Gmail]
+2026-10-02 02:24:22,752 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/default]
+2026-10-02 02:24:22,766 WARN  [io.undertow] (ServerService Thread Pool -- 36) UT005060: Predicate exists['%{o,Content-Type}'] and regex[pattern='(?:application/javascript|text/css|text/html|text/xml|application/json|application/xml)(;.*)?', value=%{o,Content-Type}, full-match=true] uses old style square braces to define predicates, which will be removed in a future release. predicate[value] should be changed to predicate(value)
+2026-10-02 02:24:22,769 WARN  [io.undertow] (ServerService Thread Pool -- 36) UT005060: Predicate exists['%{o,Content-Type}'] and regex[pattern='(?:application/javascript|text/css|text/html|text/xml|application/json|application/xml)(;.*)?', value=%{o,Content-Type}, full-match=true] uses old style square braces to define predicates, which will be removed in a future release. predicate[value] should be changed to predicate(value)
+2026-10-02 02:24:22,783 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 28) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2026-10-02 02:24:22,791 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql
+2026-10-02 02:24:22,802 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 28) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2026-10-02 02:24:22,803 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2026-10-02 02:24:22,870 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 32 core threads with 256 task threads based on your 16 available processors
+2026-10-02 02:24:22,976 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 64 (per class), which is derived from the number of CPUs on this host.
+2026-10-02 02:24:22,976 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 256 (per class), which is derived from thread worker pool sizing.
+2026-10-02 02:24:23,001 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2026-10-02 02:24:23,006 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2026-10-02 02:24:23,013 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.15.Final
+2026-10-02 02:24:23,146 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2026-10-02 02:24:23,158 WARN  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0035: No security realm or http server authentication defined for http management service; all access will be unrestricted.
+2026-10-02 02:24:23,163 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2026-10-02 02:24:23,365 WARN  [org.jboss.as.remoting] (MSC service thread 1-1) ****** All authentication is ANONYMOUS for org.jboss.as.remoting.RemotingHttpUpgradeService
+2026-10-02 02:24:23,395 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: EJB subsystem suspension complete
+2026-10-02 02:24:23,484 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/SoapBoxDS]
+2026-10-02 02:24:23,711 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Infinity Minus ONE +2' 9.4.16.Final
+2026-10-02 02:24:23,800 WARN  [org.jboss.as.remoting] (MSC service thread 1-5) ****** All authentication is ANONYMOUS for org.jboss.as.remoting.RemotingHttpUpgradeService
+2026-10-02 02:24:24,521 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 47) WFLYCLINF0002: Started passivation cache from ejb container
+2026-10-02 02:24:24,521 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 46) WFLYCLINF0002: Started default cache from server container
+2026-10-02 02:24:24,521 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 48) WFLYCLINF0002: Started passivation cache from web container
+2026-10-02 02:24:24,605 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2026-10-02 02:24:24,610 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2026-10-02 02:24:24,610 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2026-10-02 02:24:24,612 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Thorntail 2.6.0.Final (WildFly Core 10.0.3.Final) started in 3057ms - Started 352 of 535 services (340 services are lazy, passive or on-demand)
+2026-10-02 02:24:26,161 INFO  [org.wildfly.swarm.runtime.deployer] (main) deploying management-console-ui.war
+2026-10-02 02:24:26,183 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "management-console-ui.war" (runtime-name: "management-console-ui.war")
+2026-10-02 02:24:28,026 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) WFLYSRV0018: Deployment "deployment.management-console-ui.war" is using a private module ("org.jboss.ironjacamar.jdbcadapters") which may be changed or removed in future versions without notice.
+2026-10-02 02:24:28,027 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) WFLYSRV0018: Deployment "deployment.management-console-ui.war" is using a private module ("org.infinispan") which may be changed or removed in future versions without notice.
+2026-10-02 02:24:28,027 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) WFLYSRV0018: Deployment "deployment.management-console-ui.war" is using a private module ("org.infinispan.commons") which may be changed or removed in future versions without notice.
+2026-10-02 02:24:28,028 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) WFLYSRV0018: Deployment "deployment.management-console-ui.war" is using a private module ("org.jboss.jts") which may be changed or removed in future versions without notice.
+2026-10-02 02:24:28,252 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 17) WFLYUT0021: Registered web context: '/console' for server 'default-server'
+2026-10-02 02:24:28,272 INFO  [org.jboss.as.server] (main) WFLYSRV0010: Deployed "management-console-ui.war" (runtime-name : "management-console-ui.war")
+2026-10-02 02:24:30,529 INFO  [org.wildfly.swarm.runtime.deployer] (main) deploying core.war
+2026-10-02 02:24:30,541 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "core.war" (runtime-name: "core.war")
+2026-10-02 02:24:33,010 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for soapboxrace-pu
+2026-10-02 02:24:33,233 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.core.war" is using a private module ("org.jboss.ironjacamar.jdbcadapters") which may be changed or removed in future versions without notice.
+2026-10-02 02:24:33,235 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.core.war" is using a private module ("org.infinispan") which may be changed or removed in future versions without notice.
+2026-10-02 02:24:33,235 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.core.war" is using a private module ("org.infinispan.commons") which may be changed or removed in future versions without notice.
+2026-10-02 02:24:33,235 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.core.war" is using a private module ("org.jboss.jts") which may be changed or removed in future versions without notice.
+2026-10-02 02:24:33,246 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 17) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'core.war#soapboxrace-pu'
+2026-10-02 02:24:33,270 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 17) HHH000204: Processing PersistenceUnitInfo [
+	name: soapboxrace-pu
+	...]
+2026-10-02 02:24:33,341 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 17) HHH000412: Hibernate Core {5.3.13.Final}
+2026-10-02 02:24:33,342 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 17) HHH000206: hibernate.properties not found
+2026-10-02 02:24:33,395 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment core.war
+2026-10-02 02:24:33,466 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 6.0.18.Final
+2026-10-02 02:24:33,481 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 17) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2026-10-02 02:24:33,578 INFO  [io.lettuce.core.support.LettuceCdiExtension] (MSC service thread 1-8) Activating CDI extension for lettuce.
+2026-10-02 02:24:33,579 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ChatRoomDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/ChatRoomDAO!com.soapboxrace.core.dao.ChatRoomDAO
+	java:app/core/ChatRoomDAO!com.soapboxrace.core.dao.ChatRoomDAO
+	java:module/ChatRoomDAO!com.soapboxrace.core.dao.ChatRoomDAO
+	ejb:/core/ChatRoomDAO!com.soapboxrace.core.dao.ChatRoomDAO
+	java:global/core/ChatRoomDAO
+	java:app/core/ChatRoomDAO
+	java:module/ChatRoomDAO
+
+2026-10-02 02:24:33,579 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'AmplifierDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/AmplifierDAO!com.soapboxrace.core.dao.AmplifierDAO
+	java:app/core/AmplifierDAO!com.soapboxrace.core.dao.AmplifierDAO
+	java:module/AmplifierDAO!com.soapboxrace.core.dao.AmplifierDAO
+	ejb:/core/AmplifierDAO!com.soapboxrace.core.dao.AmplifierDAO
+	java:global/core/AmplifierDAO
+	java:app/core/AmplifierDAO
+	java:module/AmplifierDAO
+
+2026-10-02 02:24:33,579 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ErrorReportingBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/ErrorReportingBO!com.soapboxrace.core.bo.ErrorReportingBO
+	java:app/core/ErrorReportingBO!com.soapboxrace.core.bo.ErrorReportingBO
+	java:module/ErrorReportingBO!com.soapboxrace.core.bo.ErrorReportingBO
+	ejb:/core/ErrorReportingBO!com.soapboxrace.core.bo.ErrorReportingBO
+	java:global/core/ErrorReportingBO
+	java:app/core/ErrorReportingBO
+	java:module/ErrorReportingBO
+
+2026-10-02 02:24:33,579 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'NewsArticleBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/NewsArticleBO!com.soapboxrace.core.bo.NewsArticleBO
+	java:app/core/NewsArticleBO!com.soapboxrace.core.bo.NewsArticleBO
+	java:module/NewsArticleBO!com.soapboxrace.core.bo.NewsArticleBO
+	ejb:/core/NewsArticleBO!com.soapboxrace.core.bo.NewsArticleBO
+	java:global/core/NewsArticleBO
+	java:app/core/NewsArticleBO
+	java:module/NewsArticleBO
+
+2026-10-02 02:24:33,580 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'BanDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/BanDAO!com.soapboxrace.core.dao.BanDAO
+	java:app/core/BanDAO!com.soapboxrace.core.dao.BanDAO
+	java:module/BanDAO!com.soapboxrace.core.dao.BanDAO
+	ejb:/core/BanDAO!com.soapboxrace.core.dao.BanDAO
+	java:global/core/BanDAO
+	java:app/core/BanDAO
+	java:module/BanDAO
+
+2026-10-02 02:24:33,580 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TreasureHuntConfigDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/TreasureHuntConfigDAO!com.soapboxrace.core.dao.TreasureHuntConfigDAO
+	java:app/core/TreasureHuntConfigDAO!com.soapboxrace.core.dao.TreasureHuntConfigDAO
+	java:module/TreasureHuntConfigDAO!com.soapboxrace.core.dao.TreasureHuntConfigDAO
+	ejb:/core/TreasureHuntConfigDAO!com.soapboxrace.core.dao.TreasureHuntConfigDAO
+	java:global/core/TreasureHuntConfigDAO
+	java:app/core/TreasureHuntConfigDAO
+	java:module/TreasureHuntConfigDAO
+
+2026-10-02 02:24:33,580 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'BadgeDefinitionDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/BadgeDefinitionDAO!com.soapboxrace.core.dao.BadgeDefinitionDAO
+	java:app/core/BadgeDefinitionDAO!com.soapboxrace.core.dao.BadgeDefinitionDAO
+	java:module/BadgeDefinitionDAO!com.soapboxrace.core.dao.BadgeDefinitionDAO
+	ejb:/core/BadgeDefinitionDAO!com.soapboxrace.core.dao.BadgeDefinitionDAO
+	java:global/core/BadgeDefinitionDAO
+	java:app/core/BadgeDefinitionDAO
+	java:module/BadgeDefinitionDAO
+
+2026-10-02 02:24:33,580 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ProductDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/ProductDAO!com.soapboxrace.core.dao.ProductDAO
+	java:app/core/ProductDAO!com.soapboxrace.core.dao.ProductDAO
+	java:module/ProductDAO!com.soapboxrace.core.dao.ProductDAO
+	ejb:/core/ProductDAO!com.soapboxrace.core.dao.ProductDAO
+	java:global/core/ProductDAO
+	java:app/core/ProductDAO
+	java:module/ProductDAO
+
+2026-10-02 02:24:33,580 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LoginAnnouncementDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/LoginAnnouncementDAO!com.soapboxrace.core.dao.LoginAnnouncementDAO
+	java:app/core/LoginAnnouncementDAO!com.soapboxrace.core.dao.LoginAnnouncementDAO
+	java:module/LoginAnnouncementDAO!com.soapboxrace.core.dao.LoginAnnouncementDAO
+	ejb:/core/LoginAnnouncementDAO!com.soapboxrace.core.dao.LoginAnnouncementDAO
+	java:global/core/LoginAnnouncementDAO
+	java:app/core/LoginAnnouncementDAO
+	java:module/LoginAnnouncementDAO
+
+2026-10-02 02:24:33,581 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CommerceBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/CommerceBO!com.soapboxrace.core.bo.CommerceBO
+	java:app/core/CommerceBO!com.soapboxrace.core.bo.CommerceBO
+	java:module/CommerceBO!com.soapboxrace.core.bo.CommerceBO
+	ejb:/core/CommerceBO!com.soapboxrace.core.bo.CommerceBO
+	java:global/core/CommerceBO
+	java:app/core/CommerceBO
+	java:module/CommerceBO
+
+2026-10-02 02:24:33,581 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'GetServerInformationBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/GetServerInformationBO!com.soapboxrace.core.bo.GetServerInformationBO
+	java:app/core/GetServerInformationBO!com.soapboxrace.core.bo.GetServerInformationBO
+	java:module/GetServerInformationBO!com.soapboxrace.core.bo.GetServerInformationBO
+	ejb:/core/GetServerInformationBO!com.soapboxrace.core.bo.GetServerInformationBO
+	java:global/core/GetServerInformationBO
+	java:app/core/GetServerInformationBO
+	java:module/GetServerInformationBO
+
+2026-10-02 02:24:33,581 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CarSlotBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/CarSlotBO!com.soapboxrace.core.bo.CarSlotBO
+	java:app/core/CarSlotBO!com.soapboxrace.core.bo.CarSlotBO
+	java:module/CarSlotBO!com.soapboxrace.core.bo.CarSlotBO
+	ejb:/core/CarSlotBO!com.soapboxrace.core.bo.CarSlotBO
+	java:global/core/CarSlotBO
+	java:app/core/CarSlotBO
+	java:module/CarSlotBO
+
+2026-10-02 02:24:33,581 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'AuthenticationBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/AuthenticationBO!com.soapboxrace.core.bo.AuthenticationBO
+	java:app/core/AuthenticationBO!com.soapboxrace.core.bo.AuthenticationBO
+	java:module/AuthenticationBO!com.soapboxrace.core.bo.AuthenticationBO
+	ejb:/core/AuthenticationBO!com.soapboxrace.core.bo.AuthenticationBO
+	java:global/core/AuthenticationBO
+	java:app/core/AuthenticationBO
+	java:module/AuthenticationBO
+
+2026-10-02 02:24:33,581 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'DropBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/DropBO!com.soapboxrace.core.bo.DropBO
+	java:app/core/DropBO!com.soapboxrace.core.bo.DropBO
+	java:module/DropBO!com.soapboxrace.core.bo.DropBO
+	ejb:/core/DropBO!com.soapboxrace.core.bo.DropBO
+	java:global/core/DropBO
+	java:app/core/DropBO
+	java:module/DropBO
+
+2026-10-02 02:24:33,583 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RecoveryPasswordDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/RecoveryPasswordDAO!com.soapboxrace.core.dao.RecoveryPasswordDAO
+	java:app/core/RecoveryPasswordDAO!com.soapboxrace.core.dao.RecoveryPasswordDAO
+	java:module/RecoveryPasswordDAO!com.soapboxrace.core.dao.RecoveryPasswordDAO
+	ejb:/core/RecoveryPasswordDAO!com.soapboxrace.core.dao.RecoveryPasswordDAO
+	java:global/core/RecoveryPasswordDAO
+	java:app/core/RecoveryPasswordDAO
+	java:module/RecoveryPasswordDAO
+
+2026-10-02 02:24:33,583 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EventResultRouteBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/EventResultRouteBO!com.soapboxrace.core.bo.EventResultRouteBO
+	java:app/core/EventResultRouteBO!com.soapboxrace.core.bo.EventResultRouteBO
+	java:module/EventResultRouteBO!com.soapboxrace.core.bo.EventResultRouteBO
+	ejb:/core/EventResultRouteBO!com.soapboxrace.core.bo.EventResultRouteBO
+	java:global/core/EventResultRouteBO
+	java:app/core/EventResultRouteBO
+	java:module/EventResultRouteBO
+
+2026-10-02 02:24:33,583 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'SocialBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/SocialBO!com.soapboxrace.core.bo.SocialBO
+	java:app/core/SocialBO!com.soapboxrace.core.bo.SocialBO
+	java:module/SocialBO!com.soapboxrace.core.bo.SocialBO
+	ejb:/core/SocialBO!com.soapboxrace.core.bo.SocialBO
+	java:global/core/SocialBO
+	java:app/core/SocialBO
+	java:module/SocialBO
+
+2026-10-02 02:24:33,583 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RedisBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/RedisBO!com.soapboxrace.core.bo.RedisBO
+	java:app/core/RedisBO!com.soapboxrace.core.bo.RedisBO
+	java:module/RedisBO!com.soapboxrace.core.bo.RedisBO
+	ejb:/core/RedisBO!com.soapboxrace.core.bo.RedisBO
+	java:global/core/RedisBO
+	java:app/core/RedisBO
+	java:module/RedisBO
+
+2026-10-02 02:24:33,583 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EventsBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/EventsBO!com.soapboxrace.core.bo.EventsBO
+	java:app/core/EventsBO!com.soapboxrace.core.bo.EventsBO
+	java:module/EventsBO!com.soapboxrace.core.bo.EventsBO
+	ejb:/core/EventsBO!com.soapboxrace.core.bo.EventsBO
+	java:global/core/EventsBO
+	java:app/core/EventsBO
+	java:module/EventsBO
+
+2026-10-02 02:24:33,584 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'BasketBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/BasketBO!com.soapboxrace.core.bo.BasketBO
+	java:app/core/BasketBO!com.soapboxrace.core.bo.BasketBO
+	java:module/BasketBO!com.soapboxrace.core.bo.BasketBO
+	ejb:/core/BasketBO!com.soapboxrace.core.bo.BasketBO
+	java:global/core/BasketBO
+	java:app/core/BasketBO
+	java:module/BasketBO
+
+2026-10-02 02:24:33,584 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CarClassesDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/CarClassesDAO!com.soapboxrace.core.dao.CarClassesDAO
+	java:app/core/CarClassesDAO!com.soapboxrace.core.dao.CarClassesDAO
+	java:module/CarClassesDAO!com.soapboxrace.core.dao.CarClassesDAO
+	ejb:/core/CarClassesDAO!com.soapboxrace.core.dao.CarClassesDAO
+	java:global/core/CarClassesDAO
+	java:app/core/CarClassesDAO
+	java:module/CarClassesDAO
+
+2026-10-02 02:24:33,584 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LevelRepDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/LevelRepDAO!com.soapboxrace.core.dao.LevelRepDAO
+	java:app/core/LevelRepDAO!com.soapboxrace.core.dao.LevelRepDAO
+	java:module/LevelRepDAO!com.soapboxrace.core.dao.LevelRepDAO
+	ejb:/core/LevelRepDAO!com.soapboxrace.core.dao.LevelRepDAO
+	java:global/core/LevelRepDAO
+	java:app/core/LevelRepDAO
+	java:module/LevelRepDAO
+
+2026-10-02 02:24:33,584 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/PersonaDAO!com.soapboxrace.core.dao.PersonaDAO
+	java:app/core/PersonaDAO!com.soapboxrace.core.dao.PersonaDAO
+	java:module/PersonaDAO!com.soapboxrace.core.dao.PersonaDAO
+	ejb:/core/PersonaDAO!com.soapboxrace.core.dao.PersonaDAO
+	java:global/core/PersonaDAO
+	java:app/core/PersonaDAO
+	java:module/PersonaDAO
+
+2026-10-02 02:24:33,585 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LobbyEntrantDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/LobbyEntrantDAO!com.soapboxrace.core.dao.LobbyEntrantDAO
+	java:app/core/LobbyEntrantDAO!com.soapboxrace.core.dao.LobbyEntrantDAO
+	java:module/LobbyEntrantDAO!com.soapboxrace.core.dao.LobbyEntrantDAO
+	ejb:/core/LobbyEntrantDAO!com.soapboxrace.core.dao.LobbyEntrantDAO
+	java:global/core/LobbyEntrantDAO
+	java:app/core/LobbyEntrantDAO
+	java:module/LobbyEntrantDAO
+
+2026-10-02 02:24:33,585 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'NewsArticleDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/NewsArticleDAO!com.soapboxrace.core.dao.NewsArticleDAO
+	java:app/core/NewsArticleDAO!com.soapboxrace.core.dao.NewsArticleDAO
+	java:module/NewsArticleDAO!com.soapboxrace.core.dao.NewsArticleDAO
+	ejb:/core/NewsArticleDAO!com.soapboxrace.core.dao.NewsArticleDAO
+	java:global/core/NewsArticleDAO
+	java:app/core/NewsArticleDAO
+	java:module/NewsArticleDAO
+
+2026-10-02 02:24:33,585 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PersonaBadgeDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/PersonaBadgeDAO!com.soapboxrace.core.dao.PersonaBadgeDAO
+	java:app/core/PersonaBadgeDAO!com.soapboxrace.core.dao.PersonaBadgeDAO
+	java:module/PersonaBadgeDAO!com.soapboxrace.core.dao.PersonaBadgeDAO
+	ejb:/core/PersonaBadgeDAO!com.soapboxrace.core.dao.PersonaBadgeDAO
+	java:global/core/PersonaBadgeDAO
+	java:app/core/PersonaBadgeDAO
+	java:module/PersonaBadgeDAO
+
+2026-10-02 02:24:33,585 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TreasureHuntDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/TreasureHuntDAO!com.soapboxrace.core.dao.TreasureHuntDAO
+	java:app/core/TreasureHuntDAO!com.soapboxrace.core.dao.TreasureHuntDAO
+	java:module/TreasureHuntDAO!com.soapboxrace.core.dao.TreasureHuntDAO
+	ejb:/core/TreasureHuntDAO!com.soapboxrace.core.dao.TreasureHuntDAO
+	java:global/core/TreasureHuntDAO
+	java:app/core/TreasureHuntDAO
+	java:module/TreasureHuntDAO
+
+2026-10-02 02:24:33,586 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'SocialRelationshipDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/SocialRelationshipDAO!com.soapboxrace.core.dao.SocialRelationshipDAO
+	java:app/core/SocialRelationshipDAO!com.soapboxrace.core.dao.SocialRelationshipDAO
+	java:module/SocialRelationshipDAO!com.soapboxrace.core.dao.SocialRelationshipDAO
+	ejb:/core/SocialRelationshipDAO!com.soapboxrace.core.dao.SocialRelationshipDAO
+	java:global/core/SocialRelationshipDAO
+	java:app/core/SocialRelationshipDAO
+	java:module/SocialRelationshipDAO
+
+2026-10-02 02:24:33,586 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EventResultTeamEscapeBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/EventResultTeamEscapeBO!com.soapboxrace.core.bo.EventResultTeamEscapeBO
+	java:app/core/EventResultTeamEscapeBO!com.soapboxrace.core.bo.EventResultTeamEscapeBO
+	java:module/EventResultTeamEscapeBO!com.soapboxrace.core.bo.EventResultTeamEscapeBO
+	ejb:/core/EventResultTeamEscapeBO!com.soapboxrace.core.bo.EventResultTeamEscapeBO
+	java:global/core/EventResultTeamEscapeBO
+	java:app/core/EventResultTeamEscapeBO
+	java:module/EventResultTeamEscapeBO
+
+2026-10-02 02:24:33,586 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RewardTeamEscapeBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/RewardTeamEscapeBO!com.soapboxrace.core.bo.RewardTeamEscapeBO
+	java:app/core/RewardTeamEscapeBO!com.soapboxrace.core.bo.RewardTeamEscapeBO
+	java:module/RewardTeamEscapeBO!com.soapboxrace.core.bo.RewardTeamEscapeBO
+	ejb:/core/RewardTeamEscapeBO!com.soapboxrace.core.bo.RewardTeamEscapeBO
+	java:global/core/RewardTeamEscapeBO
+	java:app/core/RewardTeamEscapeBO
+	java:module/RewardTeamEscapeBO
+
+2026-10-02 02:24:33,586 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PowerupTrackingBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/PowerupTrackingBO!com.soapboxrace.core.bo.PowerupTrackingBO
+	java:app/core/PowerupTrackingBO!com.soapboxrace.core.bo.PowerupTrackingBO
+	java:module/PowerupTrackingBO!com.soapboxrace.core.bo.PowerupTrackingBO
+	ejb:/core/PowerupTrackingBO!com.soapboxrace.core.bo.PowerupTrackingBO
+	java:global/core/PowerupTrackingBO
+	java:app/core/PowerupTrackingBO
+	java:module/PowerupTrackingBO
+
+2026-10-02 02:24:33,586 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RewardBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/RewardBO!com.soapboxrace.core.bo.RewardBO
+	java:app/core/RewardBO!com.soapboxrace.core.bo.RewardBO
+	java:module/RewardBO!com.soapboxrace.core.bo.RewardBO
+	ejb:/core/RewardBO!com.soapboxrace.core.bo.RewardBO
+	java:global/core/RewardBO
+	java:app/core/RewardBO
+	java:module/RewardBO
+
+2026-10-02 02:24:33,586 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CardPackDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/CardPackDAO!com.soapboxrace.core.dao.CardPackDAO
+	java:app/core/CardPackDAO!com.soapboxrace.core.dao.CardPackDAO
+	java:module/CardPackDAO!com.soapboxrace.core.dao.CardPackDAO
+	ejb:/core/CardPackDAO!com.soapboxrace.core.dao.CardPackDAO
+	java:global/core/CardPackDAO
+	java:app/core/CardPackDAO
+	java:module/CardPackDAO
+
+2026-10-02 02:24:33,588 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'InviteTicketDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/InviteTicketDAO!com.soapboxrace.core.dao.InviteTicketDAO
+	java:app/core/InviteTicketDAO!com.soapboxrace.core.dao.InviteTicketDAO
+	java:module/InviteTicketDAO!com.soapboxrace.core.dao.InviteTicketDAO
+	ejb:/core/InviteTicketDAO!com.soapboxrace.core.dao.InviteTicketDAO
+	java:global/core/InviteTicketDAO
+	java:app/core/InviteTicketDAO
+	java:module/InviteTicketDAO
+
+2026-10-02 02:24:33,588 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'OpenFireRestApiCli' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/OpenFireRestApiCli!com.soapboxrace.core.xmpp.OpenFireRestApiCli
+	java:app/core/OpenFireRestApiCli!com.soapboxrace.core.xmpp.OpenFireRestApiCli
+	java:module/OpenFireRestApiCli!com.soapboxrace.core.xmpp.OpenFireRestApiCli
+	ejb:/core/OpenFireRestApiCli!com.soapboxrace.core.xmpp.OpenFireRestApiCli
+	java:global/core/OpenFireRestApiCli
+	java:app/core/OpenFireRestApiCli
+	java:module/OpenFireRestApiCli
+
+2026-10-02 02:24:33,588 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RewardDragBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/RewardDragBO!com.soapboxrace.core.bo.RewardDragBO
+	java:app/core/RewardDragBO!com.soapboxrace.core.bo.RewardDragBO
+	java:module/RewardDragBO!com.soapboxrace.core.bo.RewardDragBO
+	ejb:/core/RewardDragBO!com.soapboxrace.core.bo.RewardDragBO
+	java:global/core/RewardDragBO
+	java:app/core/RewardDragBO
+	java:module/RewardDragBO
+
+2026-10-02 02:24:33,588 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EventDataDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/EventDataDAO!com.soapboxrace.core.dao.EventDataDAO
+	java:app/core/EventDataDAO!com.soapboxrace.core.dao.EventDataDAO
+	java:module/EventDataDAO!com.soapboxrace.core.dao.EventDataDAO
+	ejb:/core/EventDataDAO!com.soapboxrace.core.dao.EventDataDAO
+	java:global/core/EventDataDAO
+	java:app/core/EventDataDAO
+	java:module/EventDataDAO
+
+2026-10-02 02:24:33,589 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LegitRaceBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/LegitRaceBO!com.soapboxrace.core.bo.LegitRaceBO
+	java:app/core/LegitRaceBO!com.soapboxrace.core.bo.LegitRaceBO
+	java:module/LegitRaceBO!com.soapboxrace.core.bo.LegitRaceBO
+	ejb:/core/LegitRaceBO!com.soapboxrace.core.bo.LegitRaceBO
+	java:global/core/LegitRaceBO
+	java:app/core/LegitRaceBO
+	java:module/LegitRaceBO
+
+2026-10-02 02:24:33,589 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'DNFTimerBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/DNFTimerBO!com.soapboxrace.core.bo.DNFTimerBO
+	java:app/core/DNFTimerBO!com.soapboxrace.core.bo.DNFTimerBO
+	java:module/DNFTimerBO!com.soapboxrace.core.bo.DNFTimerBO
+	ejb:/core/DNFTimerBO!com.soapboxrace.core.bo.DNFTimerBO
+	java:global/core/DNFTimerBO
+	java:app/core/DNFTimerBO
+	java:module/DNFTimerBO
+
+2026-10-02 02:24:33,589 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'MatchmakingBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/MatchmakingBO!com.soapboxrace.core.bo.MatchmakingBO
+	java:app/core/MatchmakingBO!com.soapboxrace.core.bo.MatchmakingBO
+	java:module/MatchmakingBO!com.soapboxrace.core.bo.MatchmakingBO
+	ejb:/core/MatchmakingBO!com.soapboxrace.core.bo.MatchmakingBO
+	java:global/core/MatchmakingBO
+	java:app/core/MatchmakingBO
+	java:module/MatchmakingBO
+
+2026-10-02 02:24:33,589 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CarDamageBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/CarDamageBO!com.soapboxrace.core.bo.CarDamageBO
+	java:app/core/CarDamageBO!com.soapboxrace.core.bo.CarDamageBO
+	java:module/CarDamageBO!com.soapboxrace.core.bo.CarDamageBO
+	ejb:/core/CarDamageBO!com.soapboxrace.core.bo.CarDamageBO
+	java:global/core/CarDamageBO
+	java:app/core/CarDamageBO
+	java:module/CarDamageBO
+
+2026-10-02 02:24:33,589 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EventBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/EventBO!com.soapboxrace.core.bo.EventBO
+	java:app/core/EventBO!com.soapboxrace.core.bo.EventBO
+	java:module/EventBO!com.soapboxrace.core.bo.EventBO
+	ejb:/core/EventBO!com.soapboxrace.core.bo.EventBO
+	java:global/core/EventBO
+	java:app/core/EventBO
+	java:module/EventBO
+
+2026-10-02 02:24:33,590 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ParameterDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/ParameterDAO!com.soapboxrace.core.dao.ParameterDAO
+	java:app/core/ParameterDAO!com.soapboxrace.core.dao.ParameterDAO
+	java:module/ParameterDAO!com.soapboxrace.core.dao.ParameterDAO
+	ejb:/core/ParameterDAO!com.soapboxrace.core.dao.ParameterDAO
+	java:global/core/ParameterDAO
+	java:app/core/ParameterDAO
+	java:module/ParameterDAO
+
+2026-10-02 02:24:33,590 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'OnlineUsersBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/OnlineUsersBO!com.soapboxrace.core.bo.OnlineUsersBO
+	java:app/core/OnlineUsersBO!com.soapboxrace.core.bo.OnlineUsersBO
+	java:module/OnlineUsersBO!com.soapboxrace.core.bo.OnlineUsersBO
+	ejb:/core/OnlineUsersBO!com.soapboxrace.core.bo.OnlineUsersBO
+	java:global/core/OnlineUsersBO
+	java:app/core/OnlineUsersBO
+	java:module/OnlineUsersBO
+
+2026-10-02 02:24:33,590 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'InviteTicketBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/InviteTicketBO!com.soapboxrace.core.bo.InviteTicketBO
+	java:app/core/InviteTicketBO!com.soapboxrace.core.bo.InviteTicketBO
+	java:module/InviteTicketBO!com.soapboxrace.core.bo.InviteTicketBO
+	ejb:/core/InviteTicketBO!com.soapboxrace.core.bo.InviteTicketBO
+	java:global/core/InviteTicketBO
+	java:app/core/InviteTicketBO
+	java:module/InviteTicketBO
+
+2026-10-02 02:24:33,590 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'InventoryDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/InventoryDAO!com.soapboxrace.core.dao.InventoryDAO
+	java:app/core/InventoryDAO!com.soapboxrace.core.dao.InventoryDAO
+	java:module/InventoryDAO!com.soapboxrace.core.dao.InventoryDAO
+	ejb:/core/InventoryDAO!com.soapboxrace.core.dao.InventoryDAO
+	java:global/core/InventoryDAO
+	java:app/core/InventoryDAO
+	java:module/InventoryDAO
+
+2026-10-02 02:24:33,590 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'DriverPersonaBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/DriverPersonaBO!com.soapboxrace.core.bo.DriverPersonaBO
+	java:app/core/DriverPersonaBO!com.soapboxrace.core.bo.DriverPersonaBO
+	java:module/DriverPersonaBO!com.soapboxrace.core.bo.DriverPersonaBO
+	ejb:/core/DriverPersonaBO!com.soapboxrace.core.bo.DriverPersonaBO
+	java:global/core/DriverPersonaBO
+	java:app/core/DriverPersonaBO
+	java:module/DriverPersonaBO
+
+2026-10-02 02:24:33,591 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RewardRouteBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/RewardRouteBO!com.soapboxrace.core.bo.RewardRouteBO
+	java:app/core/RewardRouteBO!com.soapboxrace.core.bo.RewardRouteBO
+	java:module/RewardRouteBO!com.soapboxrace.core.bo.RewardRouteBO
+	ejb:/core/RewardRouteBO!com.soapboxrace.core.bo.RewardRouteBO
+	java:global/core/RewardRouteBO
+	java:app/core/RewardRouteBO
+	java:module/RewardRouteBO
+
+2026-10-02 02:24:33,591 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LoginAnnouncementBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/LoginAnnouncementBO!com.soapboxrace.core.bo.LoginAnnouncementBO
+	java:app/core/LoginAnnouncementBO!com.soapboxrace.core.bo.LoginAnnouncementBO
+	java:module/LoginAnnouncementBO!com.soapboxrace.core.bo.LoginAnnouncementBO
+	ejb:/core/LoginAnnouncementBO!com.soapboxrace.core.bo.LoginAnnouncementBO
+	java:global/core/LoginAnnouncementBO
+	java:app/core/LoginAnnouncementBO
+	java:module/LoginAnnouncementBO
+
+2026-10-02 02:24:33,591 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LobbyDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/LobbyDAO!com.soapboxrace.core.dao.LobbyDAO
+	java:app/core/LobbyDAO!com.soapboxrace.core.dao.LobbyDAO
+	java:module/LobbyDAO!com.soapboxrace.core.dao.LobbyDAO
+	ejb:/core/LobbyDAO!com.soapboxrace.core.dao.LobbyDAO
+	java:global/core/LobbyDAO
+	java:app/core/LobbyDAO
+	java:module/LobbyDAO
+
+2026-10-02 02:24:33,591 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'InventoryItemDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/InventoryItemDAO!com.soapboxrace.core.dao.InventoryItemDAO
+	java:app/core/InventoryItemDAO!com.soapboxrace.core.dao.InventoryItemDAO
+	java:module/InventoryItemDAO!com.soapboxrace.core.dao.InventoryItemDAO
+	ejb:/core/InventoryItemDAO!com.soapboxrace.core.dao.InventoryItemDAO
+	java:global/core/InventoryItemDAO
+	java:app/core/InventoryItemDAO
+	java:module/InventoryItemDAO
+
+2026-10-02 02:24:33,592 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PerformanceBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/PerformanceBO!com.soapboxrace.core.bo.PerformanceBO
+	java:app/core/PerformanceBO!com.soapboxrace.core.bo.PerformanceBO
+	java:module/PerformanceBO!com.soapboxrace.core.bo.PerformanceBO
+	ejb:/core/PerformanceBO!com.soapboxrace.core.bo.PerformanceBO
+	java:global/core/PerformanceBO
+	java:app/core/PerformanceBO
+	java:module/PerformanceBO
+
+2026-10-02 02:24:33,592 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CategoryDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/CategoryDAO!com.soapboxrace.core.dao.CategoryDAO
+	java:app/core/CategoryDAO!com.soapboxrace.core.dao.CategoryDAO
+	java:module/CategoryDAO!com.soapboxrace.core.dao.CategoryDAO
+	ejb:/core/CategoryDAO!com.soapboxrace.core.dao.CategoryDAO
+	java:global/core/CategoryDAO
+	java:app/core/CategoryDAO
+	java:module/CategoryDAO
+
+2026-10-02 02:24:33,592 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PersonaBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/PersonaBO!com.soapboxrace.core.bo.PersonaBO
+	java:app/core/PersonaBO!com.soapboxrace.core.bo.PersonaBO
+	java:module/PersonaBO!com.soapboxrace.core.bo.PersonaBO
+	ejb:/core/PersonaBO!com.soapboxrace.core.bo.PersonaBO
+	java:global/core/PersonaBO
+	java:app/core/PersonaBO
+	java:module/PersonaBO
+
+2026-10-02 02:24:33,592 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ProductBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/ProductBO!com.soapboxrace.core.bo.ProductBO
+	java:app/core/ProductBO!com.soapboxrace.core.bo.ProductBO
+	java:module/ProductBO!com.soapboxrace.core.bo.ProductBO
+	ejb:/core/ProductBO!com.soapboxrace.core.bo.ProductBO
+	java:global/core/ProductBO
+	java:app/core/ProductBO
+	java:module/ProductBO
+
+2026-10-02 02:24:33,592 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ParameterBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/ParameterBO!com.soapboxrace.core.bo.ParameterBO
+	java:app/core/ParameterBO!com.soapboxrace.core.bo.ParameterBO
+	java:module/ParameterBO!com.soapboxrace.core.bo.ParameterBO
+	ejb:/core/ParameterBO!com.soapboxrace.core.bo.ParameterBO
+	java:global/core/ParameterBO
+	java:app/core/ParameterBO
+	java:module/ParameterBO
+
+2026-10-02 02:24:33,593 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LobbyMessagingBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/LobbyMessagingBO!com.soapboxrace.core.bo.LobbyMessagingBO
+	java:app/core/LobbyMessagingBO!com.soapboxrace.core.bo.LobbyMessagingBO
+	java:module/LobbyMessagingBO!com.soapboxrace.core.bo.LobbyMessagingBO
+	ejb:/core/LobbyMessagingBO!com.soapboxrace.core.bo.LobbyMessagingBO
+	java:global/core/LobbyMessagingBO
+	java:app/core/LobbyMessagingBO
+	java:module/LobbyMessagingBO
+
+2026-10-02 02:24:33,593 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'VinylProductDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/VinylProductDAO!com.soapboxrace.core.dao.VinylProductDAO
+	java:app/core/VinylProductDAO!com.soapboxrace.core.dao.VinylProductDAO
+	java:module/VinylProductDAO!com.soapboxrace.core.dao.VinylProductDAO
+	ejb:/core/VinylProductDAO!com.soapboxrace.core.dao.VinylProductDAO
+	java:global/core/VinylProductDAO
+	java:app/core/VinylProductDAO
+	java:module/VinylProductDAO
+
+2026-10-02 02:24:33,593 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ScriptingBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/ScriptingBO!com.soapboxrace.core.bo.ScriptingBO
+	java:app/core/ScriptingBO!com.soapboxrace.core.bo.ScriptingBO
+	java:module/ScriptingBO!com.soapboxrace.core.bo.ScriptingBO
+	ejb:/core/ScriptingBO!com.soapboxrace.core.bo.ScriptingBO
+	java:global/core/ScriptingBO
+	java:app/core/ScriptingBO
+	java:module/ScriptingBO
+
+2026-10-02 02:24:33,593 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RewardTableDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/RewardTableDAO!com.soapboxrace.core.dao.RewardTableDAO
+	java:app/core/RewardTableDAO!com.soapboxrace.core.dao.RewardTableDAO
+	java:module/RewardTableDAO!com.soapboxrace.core.dao.RewardTableDAO
+	ejb:/core/RewardTableDAO!com.soapboxrace.core.dao.RewardTableDAO
+	java:global/core/RewardTableDAO
+	java:app/core/RewardTableDAO
+	java:module/RewardTableDAO
+
+2026-10-02 02:24:33,594 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'BanBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/BanBO!com.soapboxrace.core.bo.BanBO
+	java:app/core/BanBO!com.soapboxrace.core.bo.BanBO
+	java:module/BanBO!com.soapboxrace.core.bo.BanBO
+	ejb:/core/BanBO!com.soapboxrace.core.bo.BanBO
+	java:global/core/BanBO
+	java:app/core/BanBO
+	java:module/BanBO
+
+2026-10-02 02:24:33,594 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'HardwareInfoDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/HardwareInfoDAO!com.soapboxrace.core.dao.HardwareInfoDAO
+	java:app/core/HardwareInfoDAO!com.soapboxrace.core.dao.HardwareInfoDAO
+	java:module/HardwareInfoDAO!com.soapboxrace.core.dao.HardwareInfoDAO
+	ejb:/core/HardwareInfoDAO!com.soapboxrace.core.dao.HardwareInfoDAO
+	java:global/core/HardwareInfoDAO
+	java:app/core/HardwareInfoDAO
+	java:module/HardwareInfoDAO
+
+2026-10-02 02:24:33,594 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TokenSessionBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/TokenSessionBO!com.soapboxrace.core.bo.TokenSessionBO
+	java:app/core/TokenSessionBO!com.soapboxrace.core.bo.TokenSessionBO
+	java:module/TokenSessionBO!com.soapboxrace.core.bo.TokenSessionBO
+	ejb:/core/TokenSessionBO!com.soapboxrace.core.bo.TokenSessionBO
+	java:global/core/TokenSessionBO
+	java:app/core/TokenSessionBO
+	java:module/TokenSessionBO
+
+2026-10-02 02:24:33,594 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'BasketDefinitionDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/BasketDefinitionDAO!com.soapboxrace.core.dao.BasketDefinitionDAO
+	java:app/core/BasketDefinitionDAO!com.soapboxrace.core.dao.BasketDefinitionDAO
+	java:module/BasketDefinitionDAO!com.soapboxrace.core.dao.BasketDefinitionDAO
+	ejb:/core/BasketDefinitionDAO!com.soapboxrace.core.dao.BasketDefinitionDAO
+	java:global/core/BasketDefinitionDAO
+	java:app/core/BasketDefinitionDAO
+	java:module/BasketDefinitionDAO
+
+2026-10-02 02:24:33,594 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'InventoryBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/InventoryBO!com.soapboxrace.core.bo.InventoryBO
+	java:app/core/InventoryBO!com.soapboxrace.core.bo.InventoryBO
+	java:module/InventoryBO!com.soapboxrace.core.bo.InventoryBO
+	ejb:/core/InventoryBO!com.soapboxrace.core.bo.InventoryBO
+	java:global/core/InventoryBO
+	java:app/core/InventoryBO
+	java:module/InventoryBO
+
+2026-10-02 02:24:33,595 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EventSessionDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/EventSessionDAO!com.soapboxrace.core.dao.EventSessionDAO
+	java:app/core/EventSessionDAO!com.soapboxrace.core.dao.EventSessionDAO
+	java:module/EventSessionDAO!com.soapboxrace.core.dao.EventSessionDAO
+	ejb:/core/EventSessionDAO!com.soapboxrace.core.dao.EventSessionDAO
+	java:global/core/EventSessionDAO
+	java:app/core/EventSessionDAO
+	java:module/EventSessionDAO
+
+2026-10-02 02:24:33,595 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PersonaAchievementRankDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/PersonaAchievementRankDAO!com.soapboxrace.core.dao.PersonaAchievementRankDAO
+	java:app/core/PersonaAchievementRankDAO!com.soapboxrace.core.dao.PersonaAchievementRankDAO
+	java:module/PersonaAchievementRankDAO!com.soapboxrace.core.dao.PersonaAchievementRankDAO
+	ejb:/core/PersonaAchievementRankDAO!com.soapboxrace.core.dao.PersonaAchievementRankDAO
+	java:global/core/PersonaAchievementRankDAO
+	java:app/core/PersonaAchievementRankDAO
+	java:module/PersonaAchievementRankDAO
+
+2026-10-02 02:24:33,595 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'UserDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/UserDAO!com.soapboxrace.core.dao.UserDAO
+	java:app/core/UserDAO!com.soapboxrace.core.dao.UserDAO
+	java:module/UserDAO!com.soapboxrace.core.dao.UserDAO
+	ejb:/core/UserDAO!com.soapboxrace.core.dao.UserDAO
+	java:global/core/UserDAO
+	java:app/core/UserDAO
+	java:module/UserDAO
+
+2026-10-02 02:24:33,595 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LobbyBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/LobbyBO!com.soapboxrace.core.bo.LobbyBO
+	java:app/core/LobbyBO!com.soapboxrace.core.bo.LobbyBO
+	java:module/LobbyBO!com.soapboxrace.core.bo.LobbyBO
+	ejb:/core/LobbyBO!com.soapboxrace.core.bo.LobbyBO
+	java:global/core/LobbyBO
+	java:app/core/LobbyBO
+	java:module/LobbyBO
+
+2026-10-02 02:24:33,595 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EventDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/EventDAO!com.soapboxrace.core.dao.EventDAO
+	java:app/core/EventDAO!com.soapboxrace.core.dao.EventDAO
+	java:module/EventDAO!com.soapboxrace.core.dao.EventDAO
+	ejb:/core/EventDAO!com.soapboxrace.core.dao.EventDAO
+	java:global/core/EventDAO
+	java:app/core/EventDAO
+	java:module/EventDAO
+
+2026-10-02 02:24:33,595 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LobbyCountdownBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/LobbyCountdownBO!com.soapboxrace.core.bo.LobbyCountdownBO
+	java:app/core/LobbyCountdownBO!com.soapboxrace.core.bo.LobbyCountdownBO
+	java:module/LobbyCountdownBO!com.soapboxrace.core.bo.LobbyCountdownBO
+	ejb:/core/LobbyCountdownBO!com.soapboxrace.core.bo.LobbyCountdownBO
+	java:global/core/LobbyCountdownBO
+	java:app/core/LobbyCountdownBO
+	java:module/LobbyCountdownBO
+
+2026-10-02 02:24:33,595 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'HardwareInfoBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/HardwareInfoBO!com.soapboxrace.core.bo.HardwareInfoBO
+	java:app/core/HardwareInfoBO!com.soapboxrace.core.bo.HardwareInfoBO
+	java:module/HardwareInfoBO!com.soapboxrace.core.bo.HardwareInfoBO
+	ejb:/core/HardwareInfoBO!com.soapboxrace.core.bo.HardwareInfoBO
+	java:global/core/HardwareInfoBO
+	java:app/core/HardwareInfoBO
+	java:module/HardwareInfoBO
+
+2026-10-02 02:24:33,595 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'SocialRelationshipBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/SocialRelationshipBO!com.soapboxrace.core.bo.SocialRelationshipBO
+	java:app/core/SocialRelationshipBO!com.soapboxrace.core.bo.SocialRelationshipBO
+	java:module/SocialRelationshipBO!com.soapboxrace.core.bo.SocialRelationshipBO
+	ejb:/core/SocialRelationshipBO!com.soapboxrace.core.bo.SocialRelationshipBO
+	java:global/core/SocialRelationshipBO
+	java:app/core/SocialRelationshipBO
+	java:module/SocialRelationshipBO
+
+2026-10-02 02:24:33,596 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'AchievementRewardDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/AchievementRewardDAO!com.soapboxrace.core.dao.AchievementRewardDAO
+	java:app/core/AchievementRewardDAO!com.soapboxrace.core.dao.AchievementRewardDAO
+	java:module/AchievementRewardDAO!com.soapboxrace.core.dao.AchievementRewardDAO
+	ejb:/core/AchievementRewardDAO!com.soapboxrace.core.dao.AchievementRewardDAO
+	java:global/core/AchievementRewardDAO
+	java:app/core/AchievementRewardDAO
+	java:module/AchievementRewardDAO
+
+2026-10-02 02:24:33,596 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CarDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/CarDAO!com.soapboxrace.core.dao.CarDAO
+	java:app/core/CarDAO!com.soapboxrace.core.dao.CarDAO
+	java:module/CarDAO!com.soapboxrace.core.dao.CarDAO
+	ejb:/core/CarDAO!com.soapboxrace.core.dao.CarDAO
+	java:global/core/CarDAO
+	java:app/core/CarDAO
+	java:module/CarDAO
+
+2026-10-02 02:24:33,596 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RewardPursuitBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/RewardPursuitBO!com.soapboxrace.core.bo.RewardPursuitBO
+	java:app/core/RewardPursuitBO!com.soapboxrace.core.bo.RewardPursuitBO
+	java:module/RewardPursuitBO!com.soapboxrace.core.bo.RewardPursuitBO
+	ejb:/core/RewardPursuitBO!com.soapboxrace.core.bo.RewardPursuitBO
+	java:global/core/RewardPursuitBO
+	java:app/core/RewardPursuitBO
+	java:module/RewardPursuitBO
+
+2026-10-02 02:24:33,596 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EventResultPursuitBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/EventResultPursuitBO!com.soapboxrace.core.bo.EventResultPursuitBO
+	java:app/core/EventResultPursuitBO!com.soapboxrace.core.bo.EventResultPursuitBO
+	java:module/EventResultPursuitBO!com.soapboxrace.core.bo.EventResultPursuitBO
+	ejb:/core/EventResultPursuitBO!com.soapboxrace.core.bo.EventResultPursuitBO
+	java:global/core/EventResultPursuitBO
+	java:app/core/EventResultPursuitBO
+	java:module/EventResultPursuitBO
+
+2026-10-02 02:24:33,596 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'OpenFireConnector' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/OpenFireConnector!com.soapboxrace.core.xmpp.OpenFireConnector
+	java:app/core/OpenFireConnector!com.soapboxrace.core.xmpp.OpenFireConnector
+	java:module/OpenFireConnector!com.soapboxrace.core.xmpp.OpenFireConnector
+	ejb:/core/OpenFireConnector!com.soapboxrace.core.xmpp.OpenFireConnector
+	java:global/core/OpenFireConnector
+	java:app/core/OpenFireConnector
+	java:module/OpenFireConnector
+
+2026-10-02 02:24:33,597 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'UserBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/UserBO!com.soapboxrace.core.bo.UserBO
+	java:app/core/UserBO!com.soapboxrace.core.bo.UserBO
+	java:module/UserBO!com.soapboxrace.core.bo.UserBO
+	ejb:/core/UserBO!com.soapboxrace.core.bo.UserBO
+	java:global/core/UserBO
+	java:app/core/UserBO
+	java:module/UserBO
+
+2026-10-02 02:24:33,597 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ModdingBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/ModdingBO!com.soapboxrace.core.bo.ModdingBO
+	java:app/core/ModdingBO!com.soapboxrace.core.bo.ModdingBO
+	java:module/ModdingBO!com.soapboxrace.core.bo.ModdingBO
+	ejb:/core/ModdingBO!com.soapboxrace.core.bo.ModdingBO
+	java:global/core/ModdingBO
+	java:app/core/ModdingBO
+	java:module/ModdingBO
+
+2026-10-02 02:24:33,597 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'OnlineUsersDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/OnlineUsersDAO!com.soapboxrace.core.dao.OnlineUsersDAO
+	java:app/core/OnlineUsersDAO!com.soapboxrace.core.dao.OnlineUsersDAO
+	java:module/OnlineUsersDAO!com.soapboxrace.core.dao.OnlineUsersDAO
+	ejb:/core/OnlineUsersDAO!com.soapboxrace.core.dao.OnlineUsersDAO
+	java:global/core/OnlineUsersDAO
+	java:app/core/OnlineUsersDAO
+	java:module/OnlineUsersDAO
+
+2026-10-02 02:24:33,597 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PresenceBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/PresenceBO!com.soapboxrace.core.bo.PresenceBO
+	java:app/core/PresenceBO!com.soapboxrace.core.bo.PresenceBO
+	java:module/PresenceBO!com.soapboxrace.core.bo.PresenceBO
+	ejb:/core/PresenceBO!com.soapboxrace.core.bo.PresenceBO
+	java:global/core/PresenceBO
+	java:app/core/PresenceBO
+	java:module/PresenceBO
+
+2026-10-02 02:24:33,598 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EventResultDragBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/EventResultDragBO!com.soapboxrace.core.bo.EventResultDragBO
+	java:app/core/EventResultDragBO!com.soapboxrace.core.bo.EventResultDragBO
+	java:module/EventResultDragBO!com.soapboxrace.core.bo.EventResultDragBO
+	ejb:/core/EventResultDragBO!com.soapboxrace.core.bo.EventResultDragBO
+	java:global/core/EventResultDragBO
+	java:app/core/EventResultDragBO
+	java:module/EventResultDragBO
+
+2026-10-02 02:24:33,598 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'SessionBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/SessionBO!com.soapboxrace.core.bo.SessionBO
+	java:app/core/SessionBO!com.soapboxrace.core.bo.SessionBO
+	java:module/SessionBO!com.soapboxrace.core.bo.SessionBO
+	ejb:/core/SessionBO!com.soapboxrace.core.bo.SessionBO
+	java:global/core/SessionBO
+	java:app/core/SessionBO
+	java:module/SessionBO
+
+2026-10-02 02:24:33,598 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'AchievementRankDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/AchievementRankDAO!com.soapboxrace.core.dao.AchievementRankDAO
+	java:app/core/AchievementRankDAO!com.soapboxrace.core.dao.AchievementRankDAO
+	java:module/AchievementRankDAO!com.soapboxrace.core.dao.AchievementRankDAO
+	ejb:/core/AchievementRankDAO!com.soapboxrace.core.dao.AchievementRankDAO
+	java:global/core/AchievementRankDAO
+	java:app/core/AchievementRankDAO
+	java:module/AchievementRankDAO
+
+2026-10-02 02:24:33,598 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PersonaAchievementDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/PersonaAchievementDAO!com.soapboxrace.core.dao.PersonaAchievementDAO
+	java:app/core/PersonaAchievementDAO!com.soapboxrace.core.dao.PersonaAchievementDAO
+	java:module/PersonaAchievementDAO!com.soapboxrace.core.dao.PersonaAchievementDAO
+	ejb:/core/PersonaAchievementDAO!com.soapboxrace.core.dao.PersonaAchievementDAO
+	java:global/core/PersonaAchievementDAO
+	java:app/core/PersonaAchievementDAO
+	java:module/PersonaAchievementDAO
+
+2026-10-02 02:24:33,599 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'UsedPowerupDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/UsedPowerupDAO!com.soapboxrace.core.dao.UsedPowerupDAO
+	java:app/core/UsedPowerupDAO!com.soapboxrace.core.dao.UsedPowerupDAO
+	java:module/UsedPowerupDAO!com.soapboxrace.core.dao.UsedPowerupDAO
+	ejb:/core/UsedPowerupDAO!com.soapboxrace.core.dao.UsedPowerupDAO
+	java:global/core/UsedPowerupDAO
+	java:app/core/UsedPowerupDAO
+	java:module/UsedPowerupDAO
+
+2026-10-02 02:24:33,599 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'AdminBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/AdminBO!com.soapboxrace.core.bo.AdminBO
+	java:app/core/AdminBO!com.soapboxrace.core.bo.AdminBO
+	java:module/AdminBO!com.soapboxrace.core.bo.AdminBO
+	ejb:/core/AdminBO!com.soapboxrace.core.bo.AdminBO
+	java:global/core/AdminBO
+	java:app/core/AdminBO
+	java:module/AdminBO
+
+2026-10-02 02:24:33,599 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ItemRewardBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/ItemRewardBO!com.soapboxrace.core.bo.ItemRewardBO
+	java:app/core/ItemRewardBO!com.soapboxrace.core.bo.ItemRewardBO
+	java:module/ItemRewardBO!com.soapboxrace.core.bo.ItemRewardBO
+	ejb:/core/ItemRewardBO!com.soapboxrace.core.bo.ItemRewardBO
+	java:global/core/ItemRewardBO
+	java:app/core/ItemRewardBO
+	java:module/ItemRewardBO
+
+2026-10-02 02:24:33,599 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'AchievementDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/AchievementDAO!com.soapboxrace.core.dao.AchievementDAO
+	java:app/core/AchievementDAO!com.soapboxrace.core.dao.AchievementDAO
+	java:module/AchievementDAO!com.soapboxrace.core.dao.AchievementDAO
+	ejb:/core/AchievementDAO!com.soapboxrace.core.dao.AchievementDAO
+	java:global/core/AchievementDAO
+	java:app/core/AchievementDAO
+	java:module/AchievementDAO
+
+2026-10-02 02:24:33,600 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ReportDAO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/ReportDAO!com.soapboxrace.core.dao.ReportDAO
+	java:app/core/ReportDAO!com.soapboxrace.core.dao.ReportDAO
+	java:module/ReportDAO!com.soapboxrace.core.dao.ReportDAO
+	ejb:/core/ReportDAO!com.soapboxrace.core.dao.ReportDAO
+	java:global/core/ReportDAO
+	java:app/core/ReportDAO
+	java:module/ReportDAO
+
+2026-10-02 02:24:33,600 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'StartupBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/StartupBO!com.soapboxrace.core.bo.StartupBO
+	java:app/core/StartupBO!com.soapboxrace.core.bo.StartupBO
+	java:module/StartupBO!com.soapboxrace.core.bo.StartupBO
+	ejb:/core/StartupBO!com.soapboxrace.core.bo.StartupBO
+	java:global/core/StartupBO
+	java:app/core/StartupBO
+	java:module/StartupBO
+
+2026-10-02 02:24:33,600 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'AchievementBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/AchievementBO!com.soapboxrace.core.bo.AchievementBO
+	java:app/core/AchievementBO!com.soapboxrace.core.bo.AchievementBO
+	java:module/AchievementBO!com.soapboxrace.core.bo.AchievementBO
+	ejb:/core/AchievementBO!com.soapboxrace.core.bo.AchievementBO
+	java:global/core/AchievementBO
+	java:app/core/AchievementBO
+	java:module/AchievementBO
+
+2026-10-02 02:24:33,600 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'OpenFireSoapBoxCli' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/OpenFireSoapBoxCli!com.soapboxrace.core.xmpp.OpenFireSoapBoxCli
+	java:app/core/OpenFireSoapBoxCli!com.soapboxrace.core.xmpp.OpenFireSoapBoxCli
+	java:module/OpenFireSoapBoxCli!com.soapboxrace.core.xmpp.OpenFireSoapBoxCli
+	ejb:/core/OpenFireSoapBoxCli!com.soapboxrace.core.xmpp.OpenFireSoapBoxCli
+	java:global/core/OpenFireSoapBoxCli
+	java:app/core/OpenFireSoapBoxCli
+	java:module/OpenFireSoapBoxCli
+
+2026-10-02 02:24:33,600 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'RecoveryPasswordBO' in deployment unit 'deployment "core.war"' are as follows:
+
+	java:global/core/RecoveryPasswordBO!com.soapboxrace.core.bo.RecoveryPasswordBO
+	java:app/core/RecoveryPasswordBO!com.soapboxrace.core.bo.RecoveryPasswordBO
+	java:module/RecoveryPasswordBO!com.soapboxrace.core.bo.RecoveryPasswordBO
+	ejb:/core/RecoveryPasswordBO!com.soapboxrace.core.bo.RecoveryPasswordBO
+	java:global/core/RecoveryPasswordBO
+	java:app/core/RecoveryPasswordBO
+	java:module/RecoveryPasswordBO
+
+2026-10-02 02:24:34,026 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2026-10-02 02:24:34,041 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2026-10-02 02:24:34,099 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 3.1.2 (Final)
+2026-10-02 02:24:34,169 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = core.war_com.mysql.cj.jdbc.Driver_8_0
+2026-10-02 02:24:34,169 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = core.war_org.h2.Driver_1_4
+2026-10-02 02:24:34,169 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = core.war
+2026-10-02 02:24:34,491 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 17) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'core.war#soapboxrace-pu'
+2026-10-02 02:24:34,630 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 17) HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2026-10-02 02:24:34,682 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 17) Envers integration enabled? : true
+2026-10-02 02:24:35,083 INFO  [org.infinispan.expiration.impl.ExpirationManagerImpl] (ServerService Thread Pool -- 17) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2026-10-02 02:24:35,086 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 17) WFLYCLINF0002: Started core.war#soapboxrace-pu.default-update-timestamps-region cache from hibernate container
+2026-10-02 02:24:35,107 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 17) WFLYCLINF0002: Started core.war#soapboxrace-pu.default-query-results-region cache from hibernate container
+2026-10-02 02:24:35,958 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 17) HHH000397: Using ASTQueryTranslatorFactory
+2026-10-02 02:24:36,187 INFO  [io.smallrye.metrics] (MSC service thread 1-2) MicroProfile: Metrics activated (SmallRye Metrics version: 2.3.2)
+2026-10-02 02:24:36,936 INFO  [org.wildfly.swarm.microprofile.health.deployment.HealthExtension] (MSC service thread 1-2) >> Added health reporter bean io.smallrye.health.SmallRyeHealthReporter@3c3001d2
+2026-10-02 02:24:37,101 INFO  [com.soapboxrace.core.bo.SocialRelationshipBO] (ServerService Thread Pool -- 20) Initialized social relationship system
+2026-10-02 02:24:37,224 INFO  [com.soapboxrace.core.bo.StartupBO] (ServerService Thread Pool -- 19) StartupBO: Server running on code version d3edcd0 (d3edcd002514eb5265ad44484d79c4d2541ab055) - branch master
+2026-10-02 02:24:37,331 ERROR [stderr] (ServerService Thread Pool -- 27) Warning: Nashorn engine is planned to be removed from a future JDK release
+2026-10-02 02:24:37,363 INFO  [com.soapboxrace.core.bo.ParameterBO] (ServerService Thread Pool -- 55) Loaded 77 parameters from database
+2026-10-02 02:24:37,382 WARN  [com.soapboxrace.core.bo.PresenceBO] (ServerService Thread Pool -- 18) Redis is not enabled! Presence system is disabled.
+2026-10-02 02:24:37,383 WARN  [com.soapboxrace.core.bo.MatchmakingBO] (ServerService Thread Pool -- 60) Redis is not enabled! Matchmaking queue is disabled.
+2026-10-02 02:24:37,552 INFO  [com.soapboxrace.core.bo.ScriptingBO] (ServerService Thread Pool -- 27) Initialized JavaScript engine
+2026-10-02 02:24:37,722 INFO  [org.jivesoftware.smack.util.DNSUtil] (ServerService Thread Pool -- 58) Could not resolve DNS SRV resource records for _xmpp-client._tcp.192.168.100.29. Consider adding those.
+2026-10-02 02:24:37,869 INFO  [com.soapboxrace.core.xmpp.OpenFireConnector] (ServerService Thread Pool -- 58) Logged in to Openfire server!
+2026-10-02 02:24:38,320 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 19) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.soapboxrace.core.api.util.Engine$Proxy$_$$_WeldClientProxy
+2026-10-02 02:24:38,409 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 19) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2026-10-02 02:24:38,423 INFO  [org.jboss.as.server] (main) WFLYSRV0010: Deployed "core.war" (runtime-name : "core.war")
+2026-10-02 02:24:38,431 INFO  [org.wildfly.swarm] (main) THORN99999: Thorntail is Ready
+2026-10-02 02:24:39,949 WARN  [io.sentry.dsn.Dsn] (default task-1) *** Couldn't find a suitable DSN, Sentry operations will do nothing! See documentation: https://docs.sentry.io/clients/java/ ***
+2026-10-02 02:24:39,959 WARN  [io.sentry.DefaultSentryClientFactory] (default task-1) No 'stacktrace.app.packages' was configured, this option is highly recommended as it affects stacktrace grouping and display on Sentry. See documentation: https://docs.sentry.io/clients/java/config/#in-application-stack-frames

@@ -1,0 +1,44 @@
+Cliente 1.8.40.1166 (build final de EA) - idioma espanol
+Empaquetado: 2026-09-27 (version definitiva para la fiesta del 1 de octubre)
+
+
+  NFSW-Cliente.zip   El juego completo, ~3,3 GB descomprimido.
+                     nfsw.exe sin modificar (SHA-1 7C0D6EE0...), en la lista
+                     blanca del launcher. Voces en espanol.
+                     Lleva ya dentro, sin tener que hacer nada:
+                       - Unos 30 coches nuevos que ocupan el hueco de otros,
+                         incluidos el Toyota Corolla T-Sport y el Peugeot 306
+                         convertidos para este servidor. Por eso TODOS los
+                         jugadores tienen que llevar EXACTAMENTE esta version.
+                       - Mods visuales: iluminacion nueva, mas trafico,
+                         colisiones realistas y persecuciones mejoradas.
+                       - Soporte de mando (Xbox y compatibles; los de
+                         PlayStation, ver "MANDOS - LEEME.txt" dentro de la
+                         carpeta del juego y DS4Windows en esta pagina).
+                       - Teclas de serie del World, con las habilidades
+                         en 1 2 3 4, y giro del coche en el garaje con el
+                         boton derecho del raton.
+                       - Los modulos del launcher, ya con su firma correcta,
+                         para que no tenga que descargarlos.
+
+  Launcher-LAN.zip   Solo el launcher, 10 MB. Se regenera en cada arranque del
+                     servidor, asi que siempre trae la IP correcta.
+
+  DS4Windows_3.9.9_x64.zip   Solo si juegas con mando de PlayStation.
+
+
+COMO INSTALARLO
+  1. Descomprime NFSW-Cliente.zip en una carpeta cualquiera, MENOS en
+     Escritorio, Documentos, Descargas, Archivos de programa o la raiz del
+     disco: el launcher rechaza esas rutas.
+  2. Descomprime Launcher-LAN.zip en OTRA carpeta, aparte. El launcher nunca
+     va dentro de la carpeta del juego: son dos cosas separadas.
+  3. Doble clic en "Anadir-servidor-LAN.bat". Anade el servidor de la LAN al
+     launcher (un segundo, y solo hace falta una vez).
+  4. Ejecuta SBRW.Launcher.exe. La primera vez te preguntara donde tienes el
+     juego: senalale la carpeta del paso 1.
+  5. Elige "Crazy Server" en la lista, entra con tu cuenta y dale a jugar.
+
+SI YA TENIAS UNA VERSION ANTERIOR
+  Descomprime NFSW-Cliente.zip ENCIMA de tu carpeta del juego, sobrescribiendo
+  todo. No uses "Verify Game Files" del launcher durante el evento.

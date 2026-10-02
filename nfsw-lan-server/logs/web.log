@@ -1,0 +1,7 @@
+
+  Web de registro y descargas
+    Para los jugadores:  http://192.168.100.29:5000
+    Servidor del juego:  http://127.0.0.1:8080/Engine.svc
+
+ * Serving Flask app 'app'
+ * Debug mode: off

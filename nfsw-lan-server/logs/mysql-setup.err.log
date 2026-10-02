@@ -1,0 +1,11 @@
+2026-10-02T00:23:50.128188Z 0 [System] [MY-010116] [Server] E:\NFSW\nfsw-lan-server\runtime\mysql\bin\mysqld.exe (mysqld 8.0.43) starting as process 23068
+2026-10-02T00:23:50.136356Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-10-02T00:23:50.596638Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-10-02T00:23:51.019561Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-10-02T00:23:51.020344Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-10-02T00:23:51.097137Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2026-10-02T00:23:51.097142Z 0 [System] [MY-010931] [Server] E:\NFSW\nfsw-lan-server\runtime\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.43'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2026-10-02T00:23:51.551653Z 8 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2026-10-02T00:23:51.680858Z 10 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.43).
+2026-10-02T00:23:51.686333Z 0 [System] [MY-013105] [Server] E:\NFSW\nfsw-lan-server\runtime\mysql\bin\mysqld.exe: Normal shutdown.
+2026-10-02T00:23:52.282486Z 0 [System] [MY-010910] [Server] E:\NFSW\nfsw-lan-server\runtime\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.0.43)  MySQL Community Server - GPL.

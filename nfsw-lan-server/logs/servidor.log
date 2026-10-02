@@ -1,0 +1,7 @@
+﻿2026-10-02 02:21:54  start.ps1 - inicio (PS 5.1.26100.1591, admin=True)
+2026-10-02 02:23:24  stop.ps1 - servidor parado
+2026-10-02 02:23:45  setup.ps1 - inicio (PS 5.1.26100.1591, admin=True)
+2026-10-02 02:23:53  setup.ps1 ejecutado
+2026-10-02 02:24:04  start.ps1 - inicio (PS 5.1.26100.1591, admin=True)
+2026-10-02 02:24:49  start.ps1 - servidor arrancado en 192.168.100.29
+2026-10-02 02:28:38  stop.ps1 - servidor parado
