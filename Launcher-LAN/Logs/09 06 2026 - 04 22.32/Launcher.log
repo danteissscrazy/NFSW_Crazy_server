@@ -1,0 +1,160 @@
+09/06/2026 [       INFO] MAINSCREEN: Program Started
+09/06/2026 [       CORE] LAUNCHER: Set Parent Window location
+09/06/2026 [   COMPLETE] LAUNCHER: Set Parent Window location
+09/06/2026 [       CORE] DISCORD: Initializing Rich Presence Core
+09/06/2026 [      SYSTM] NET-FRAMEWORK: Supported Installed Version
+09/06/2026 [   CHECKING] SETUP: Setting Launcher Folder Directory
+09/06/2026 [   COMPLETE] SETUP: Current Directory now Set at -> E:\Multimedia\Programación\Proyectos\NFS World\nfsw-lan-server\launcher\
+09/06/2026 [   CHECKING] FOLDER LOCATION: Checking Launcher Folder Directory
+09/06/2026 [   COMPLETE] FOLDER LOCATION: Done
+09/06/2026 [   CHECKING] WRITE TEST: File [CREATE & REMOVE]
+09/06/2026 [   CHECKING] WRITE TEST: File [SUCCESS]
+09/06/2026 [       INFO] CURRENT DATE: 09/06/2026
+09/06/2026 [   CHECKING] LAUNCHER MIGRATION: Appdata and/or Roaming Folders
+09/06/2026 [   COMPLETE] LAUNCHER MIGRATION: Done
+09/06/2026 [   CHECKING] LAUNCHER XML: If File Exists or Not
+09/06/2026 [   COMPLETE] LAUNCHER XML: Done
+09/06/2026 [      BUILD] : SBRW.Launcher 2.2.4 - (04-27-25-H)
+09/06/2026 [   CHECKING] OS: Detecting
+09/06/2026 [      SYSTM] DETECTED OS: Windows 11 64 Bit
+09/06/2026 [      SYSTM] WINDOWS BUILD: 26100
+09/06/2026 [      SYSTM] NT VERSION: Microsoft Windows NT 10.0.26200.0
+09/06/2026 [      SYSTM] VIDEO CARD: NVIDIA GeForce RTX 3060
+09/06/2026 [      SYSTM] DRIVER VERSION: 32.0.16.1088
+09/06/2026 [   COMPLETE] OS: Detected
+09/06/2026 [   CHECKING] WRITE TEST: File [CREATE & REMOVE]
+09/06/2026 [   CHECKING] WRITE TEST: File [SUCCESS]
+09/06/2026 [   COMPLETE] WRITE TEST: Passed
+09/06/2026 [   CHECKING] ACCOUNT FILE MIGRATION: Doing Migration
+09/06/2026 [   COMPLETE] ACCOUNT FILE MIGRATION: Already Migrated
+09/06/2026 [   COMPLETE] ACCOUNT FILE MIGRATION: Done
+09/06/2026 [       INFO] FILE ARCHIVE PATH: Checking Default Game Archive Locations
+09/06/2026 [   CHECKING] INI FILES: Doing Nullsafe
+09/06/2026 [       INFO] PROXY SETTINGS: Random Generated Default Port -> 2019
+09/06/2026 [   FUNCTION] CUSTOM PROXY PORT: -> 2019 has been Set
+09/06/2026 [       INFO] PROXY SETTINGS: Custom Proxy Port -> 2019
+09/06/2026 [       INFO] PROXY: Local Proxy Server has Fully Initialized (SBRW.Launcher.Core.Extra [Null Safe])
+09/06/2026 [   COMPLETE] INI FILES: Done
+09/06/2026 [   CHECKING] LAUNCHER THEME: Checking
+09/06/2026 [   CHECKING] LAUNCHER THEME: Done
+09/06/2026 [   FUNCTION] APPLICATION: Setting Language
+09/06/2026 [   COMPLETE] APPLICATION: Done Setting Language 'es'
+09/06/2026 [   CHECKING] FOLDER: Launcher Data Folder
+09/06/2026 [   COMPLETE] FOLDER: Launcher Data Done
+09/06/2026 [   CHECKING] JSON: Servers File
+09/06/2026 [      ERROR] JSON SERVER FILE: Este archivo ya existe.
+
+09/06/2026 [ ERROR CODE] JSON SERVER FILE: -2147024816
+09/06/2026 [ FULL ERROR] JSON SERVER FILE: System.IO.IOException: Este archivo ya existe.
+
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.__Error.WinIOError()
+   en System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   en SBRW.Launcher.App.UI_Forms.Parent_Screen.<>c.<Parent_Screen_Shown>b__24_11()
+09/06/2026 [   COMPLETE] FOLDER: Done
+09/06/2026 [   CHECKING] CLEANLINKS: Game Path
+09/06/2026 [   COMPLETE] CLEANLINKS: Not Present
+09/06/2026 [   CHECKING] PROXY: Checking if Proxy Is Disabled from User Settings! It's value is 0
+09/06/2026 [   CHECKING] CLIENT: Checking Alternative WebCalls, it's value is WebClient
+09/06/2026 [   CHECKING] PRELOAD: Headers
+09/06/2026 [   COMPLETE] PRELOAD: Headers
+09/06/2026 [   CHECKING] CERTIFICATE STORE: Is Installed or Not
+09/06/2026 [       INFO] CERTIFICATE STORE: Setting Common Name -> Carbon Crew CA
+09/06/2026 [       INFO] CERTIFICATE STORE: Setting Subject Name -> CN=Carbon Crew CA, OU=Certificate Authority, O=Carbon Crew Productions, C=US
+09/06/2026 [       INFO] CERTIFICATE STORE: Setting Serial Number -> 7EA80AF3572F17E2
+09/06/2026 [       INFO] CERTIFICATE STORE: Setting Root CA File Name -> CC-CA
+09/06/2026 [       INFO] CERTIFICATE STORE: Setting Root CA File URL -> http://carbon-crew.github.io/ROOT-CA/CC-CA.cer
+09/06/2026 [       INFO] CERTIFICATE STORE: Found Root CA [CN=Carbon Crew CA, OU=Certificate Authority, O=Carbon Crew Productions, C=US]
+09/06/2026 [       INFO] CERTIFICATE STORE: Serial Number [7EA80AF3572F17E2]
+09/06/2026 [   COMPLETE] CERTIFICATE STORE: Done
+09/06/2026 [       INFO] VERIFIED: Moved to Function
+09/06/2026 [       INFO] SIGNED: True
+09/06/2026 [       INFO] REDISTRIBUTABLE: Moved to Function
+09/06/2026 [   CHECKING] REDISTRIBUTABLE: Is Installed or Not
+09/06/2026 [       INFO] REDISTRIBUTABLE: 32-bit VC++ Redistributable Package is Installed
+09/06/2026 [       INFO] REDISTRIBUTABLE: 64-bit VC++ Redistributable Package is Installed
+09/06/2026 [   COMPLETE] REDISTRIBUTABLE: Done
+09/06/2026 [       INFO] LIST: Moved to Function
+09/06/2026 [   CHECKING] LIST CORE: Creating Language List
+09/06/2026 [   COMPLETE] LIST CORE: Done
+09/06/2026 [       INFO] API: Moved to Function
+09/06/2026 [       INFO] API: Checking Status
+09/06/2026 [   CHECKING] API: Checking WorldUnited Status
+09/06/2026 [   CHECKING] CHECKING STATUS: https://api.worldunited.gg/serverlist.json
+09/06/2026 [   COMPLETE] CHECKING STATUS: https://api.worldunited.gg/serverlist.json [Is Online]
+09/06/2026 [   CHECKING] JSON LIST: Retriving JSON LIST https://api.worldunited.gg/serverlist.json
+09/06/2026 [        URL] JSON LIST: Retrieved https://api.worldunited.gg/serverlist.json
+09/06/2026 [   COMPLETE] JSON LIST: Valid https://api.worldunited.gg/serverlist.json
+09/06/2026 [   CHECKING] JSON LIST: Retriving JSON LIST https://api.worldunited.gg/cdn_list.json
+09/06/2026 [        URL] JSON LIST: Retrieved https://api.worldunited.gg/cdn_list.json
+09/06/2026 [   COMPLETE] JSON LIST: Valid https://api.worldunited.gg/cdn_list.json
+09/06/2026 [   COMPLETE] API: WorldUnited Status Check
+09/06/2026 [   CHECKING] API: Checking API Results
+09/06/2026 [   COMPLETE] API: Done Checking API Results
+09/06/2026 [       INFO] LIST CORE: Moved to Function
+09/06/2026 [   CHECKING] SERVER LIST CORE: Creating Server List
+09/06/2026 [   COMPLETE] SERVER LIST CORE: Done
+09/06/2026 [       INFO] LAUNCHER UPDATER: Moved to Function
+09/06/2026 [   CHECKING] LAUNCHER UPDATER: Is Version Up to Date or not
+09/06/2026 [       INFO] LAUNCHER UPDATER: Setting Latest Version -> 1.0.1.24
+09/06/2026 [       INFO] LAUNCHER UPDATER: Latest Version -> 1.0.1.24
+09/06/2026 [   COMPLETE] LAUNCHER UPDATER: Done
+09/06/2026 [       INFO] LAUNCHER UPDATE: Moved to Function
+09/06/2026 [   CHECKING] LAUNCHER UPDATE: Is Version Up to Date or not
+09/06/2026 [       INFO] LAUNCHER UPDATE: GitHub Latest Version -> 2.2.4
+09/06/2026 [   COMPLETE] LAUNCHER UPDATE: Done
+09/06/2026 [   COMPLETE] LAUNCHER POPUP: Update to Date
+09/06/2026 [       INFO] FIRST TIME RUN: Moved to Function
+09/06/2026 [       CORE] LAUNCHER: Checking Installation Directory at E:\Multimedia\Programación\Proyectos\NFS World\nfsw-lan-server\launcher\GameFiles
+09/06/2026 [   CHECKING] LAUNCHER: Checking Game Installation
+09/06/2026 [      DEBUG] E:\Multimedia\Programación\Proyectos\NFS World\nfsw-lan-server\launcher\
+09/06/2026 [   CHECKING] WRITE TEST: File [CREATE & REMOVE]
+09/06/2026 [   CHECKING] WRITE TEST: File [SUCCESS]
+09/06/2026 [       CORE] FOLDER FUNCTION CHECK: Directory Set at E:\Multimedia\Programación\Proyectos\NFS World\nfsw-lan-server\launcher\GameFiles
+09/06/2026 [       CORE] LAUNCHER: Game Installation Path Done
+09/06/2026 [   CHECKING] LAUNCHER: Checking Game Path Location
+09/06/2026 [       CORE] LAUNCHER: Done Checking Game Path Location
+09/06/2026 [      VISUL] CORE: Loading Main Screen
+09/06/2026 [       CORE] LAUNCHER: NFSW Download Source is now: https://cdn.worldunited.gg
+09/06/2026 [       CORE] LAUNCHER: Checking for password
+09/06/2026 [       CORE] LAUNCHER: Setting server list
+09/06/2026 [       CORE] SERVERLIST: Checking...
+09/06/2026 [       CORE] SERVERLIST: Setting first server in list
+09/06/2026 [       CORE] SERVERLIST: Checking if server is set on INI File
+09/06/2026 [       CORE] SERVERLIST: Re-Checking if server is set on INI File
+09/06/2026 [       CORE] SERVERLIST: Found something!
+09/06/2026 [       CORE] SERVERLIST: Checking if server exists on our database
+09/06/2026 [       CORE] SERVERLIST: Server found! Checking ID
+09/06/2026 [       CORE] SERVERLIST: ID is 10
+09/06/2026 [       CORE] SERVERLIST: ID set correctly
+09/06/2026 [       CORE] SERVERLIST: Triggering server change
+09/06/2026 [   COMPLETE] SERVERLIST: All done
+09/06/2026 [       CORE] LAUNCHER: Re-checking InstallationDirectory: E:\Multimedia\Programación\Proyectos\NFS World\nfsw-lan-server\launcher\GameFiles
+09/06/2026 [      VISUL] CORE: Applyinng ContextMenu
+09/06/2026 [       INFO] MAINSCREEN: Hello World!
+09/06/2026 [       INFO] SERVER PING: 0ms for Crazy Server
+09/06/2026 [       INFO] DOWNLOAD: Game Files Download is Complete!
+09/06/2026 [       CORE] LAUNCHER: Installing ModNet
+09/06/2026 [   CHECKING] CHECKING STATUS: http://192.168.1.235:8080/Engine.svc/Modding/GetModInfo
+09/06/2026 [   COMPLETE] CHECKING STATUS: http://192.168.1.235:8080/Engine.svc/Modding/GetModInfo [Is Online]
+09/06/2026 [       INFO] MODNET CORE: 7z.dll Is Up to Date!
+09/06/2026 [       INFO] MODNET CORE: LIBEAY32.dll Is Up to Date!
+09/06/2026 [       INFO] MODNET CORE: ModLoader.asi Is Up to Date!
+09/06/2026 [       INFO] MODNET CORE: SSLEAY32.dll Is Up to Date!
+09/06/2026 [       INFO] MODNET CORE: dinput8.dll Is Up to Date!
+09/06/2026 [       INFO] MODNET CORE: fmt.dll Is Up to Date!
+09/06/2026 [       INFO] MODNET CORE: global.ini Is Up to Date!
+09/06/2026 [       INFO] MODNET CORE: zlib1.dll Is Up to Date!
+09/06/2026 [       WARN] DISCORD: RemoteRPC list for cars.json does not exist
+09/06/2026 [       WARN] DISCORD: RemoteRPC list for events.json does not exist
+09/06/2026 [       CORE] CORE: Loading Server Mods List
+09/06/2026 [       CORE] CORE: Retrieved Server Mods List
+09/06/2026 [      ERROR] SERVER PING: Ping Failed for Crazy Server -> System.Net.NetworkInformation.PingException: Excepción durante una solicitud Ping. ---> System.Net.Sockets.SocketException: Host desconocido
+   en System.Net.Dns.GetAddrInfo(String name)
+   en System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   en System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   en System.Net.NetworkInformation.Ping.ContinueAsyncSend(Object state)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+09/06/2026 [       CORE] DISCORD: Client RPC Service has been Updated.
+09/06/2026 [       CORE] DISCORD: Initializing Rich Presence Core For Server
+09/06/2026 [       CORE] LAUNCHER: Game has Fully Launched, Minimized Launcher
