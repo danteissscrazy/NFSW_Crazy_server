@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Openfire (fork SoapboxRaceWorld) - configuracion para el servidor LAN de NFS World.
+
+    IMPORTANTE (start.ps1):
+      <xmpp><domain> DEBE coincidir con el parametro XMPP_IP de la base de datos SOAPBOX
+      y con la IP del servidor en la LAN. Si la IP del evento cambia, hay que reescribir
+      este valor antes de arrancar Openfire.
+
+    El asistente web de instalacion esta desactivado (<setup>true</setup>): la instancia
+    ya viene configurada con la base de datos HSQLDB embebida (carpeta embedded-db).
+-->
+<jive> 
+  <adminConsole> 
+    <port>9090</port>  
+    <securePort>9091</securePort> 
+  </adminConsole>  
+  <locale>en</locale>  
+  <connectionProvider> 
+    <className>org.jivesoftware.database.EmbeddedConnectionProvider</className> 
+  </connectionProvider>  
+  <setup>true</setup> 
+</jive>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    PLANTILLA: usar MySQL en vez de la base de datos HSQLDB embebida.
+
+    Para activarla:
+      1) En MySQL: CREATE DATABASE openfire DEFAULT CHARACTER SET utf8mb4;
+         y un usuario con permisos sobre ella.
+      2) Cargar el esquema:
+         mysql -u <user> -p openfire < ..\resources\database\openfire_mysql.sql
+      3) Copiar el driver mysql-connector-java-*.jar a openfire\lib\
+         (el bundle NO lo trae).
+      4) Sustituir conf\openfire.xml por este fichero (ajustando usuario/clave/IP)
+         y BORRAR (o renombrar) la carpeta embedded-db.
+      5) Volver a fijar las propiedades del plugin REST, que viven en la base de
+         datos y por tanto se pierden al cambiar de motor:
+             INSERT INTO ofProperty (name, propValue, encrypted)
+             VALUES ('plugin.restapi.enabled','true',0),
+                    ('plugin.restapi.httpAuth','secret',0),
+                    ('plugin.restapi.secret','<OPENFIRE_TOKEN>',0);
+
+    NOTA: el esquema MySQL de Openfire trae ya el usuario admin/admin.
+-->
+<jive>
+    <adminConsole>
+        <port>9090</port>
+        <securePort>9091</securePort>
+    </adminConsole>
+
+    <locale>en</locale>
+
+    <connectionProvider>
+        <className>org.jivesoftware.database.DefaultConnectionProvider</className>
+    </connectionProvider>
+
+    <database>
+        <defaultProvider>
+            <driver>com.mysql.cj.jdbc.Driver</driver>
+            <serverURL>jdbc:mysql://127.0.0.1:3306/openfire?rewriteBatchedStatements=true&amp;characterEncoding=UTF-8&amp;characterSetResults=UTF-8&amp;serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true</serverURL>
+            <username>openfire</username>
+            <password>CAMBIAME</password>
+            <testSQL>select 1</testSQL>
+            <minConnections>5</minConnections>
+            <maxConnections>25</maxConnections>
+            <connectionTimeout>1.0</connectionTimeout>
+        </defaultProvider>
+    </database>
+
+    <!-- DEBE coincidir con el PARAMETER XMPP_IP de la base de datos SOAPBOX -->
+    <xmpp>
+        <domain>127.0.0.1</domain>
+    </xmpp>
+
+    <setup>true</setup>
+</jive>

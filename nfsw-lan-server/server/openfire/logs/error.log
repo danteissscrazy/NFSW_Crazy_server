@@ -1,0 +1,8 @@
+2026.09.04 21:16:16 org.jivesoftware.openfire.update.UpdateManager - Error: update service check did not save correctly. Stopping update service.
+2026.09.05 03:01:40 org.jivesoftware.openfire.plugin.rest.exceptions.RESTExceptionMapper - UserNotFoundException: Could not get user with resource sbrw.100
+2026.09.05 21:15:51 org.jivesoftware.openfire.plugin.rest.exceptions.RESTExceptionMapper - UserNotFoundException: Could not get user with resource sbrw.101
+2026.09.06 21:16:17 org.jivesoftware.openfire.update.UpdateManager - Error: update service check did not save correctly. Stopping update service.
+2026.09.22 20:07:54 org.jivesoftware.openfire.update.UpdateManager - Error: update service check did not save correctly. Stopping update service.
+2026.09.26 21:55:48 org.jivesoftware.openfire.plugin.rest.exceptions.RESTExceptionMapper - UserNotFoundException: Could not get user with resource sbrw.102
+2026.09.27 00:45:08 org.jivesoftware.openfire.update.UpdateManager - Error: update service check did not save correctly. Stopping update service.
+2026.10.02 02:22:06 org.jivesoftware.openfire.update.UpdateManager - Error: update service check did not save correctly. Stopping update service.

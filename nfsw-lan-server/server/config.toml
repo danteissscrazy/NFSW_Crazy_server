@@ -1,0 +1,59 @@
+# Servidor de mundo abierto (freeroam) - ajustado para LAN party.
+#
+# Los valores de fabrica estan pensados para un servidor publico en internet,
+# no para una sala con 50 personas que quieren verse. Se cambian dos cosas.
+
+[UDP]
+  ListenAddress = ":9999"
+
+  # ------------------------------------------------------------------
+  # DisableRadiusSync = true  <- EL CAMBIO QUE MAS SE NOTA
+  #
+  # Por defecto (false), dos jugadores separados mas de VisibilityRadius
+  # metros NO SE VEN, aunque haya huecos libres de sobra. Con 300 m eso es
+  # media manzana: en una LAN party la gente se pierde constantemente.
+  #
+  # Poniendolo a true, el radio deja de importar y solo manda la cercania:
+  # cada jugador ve a los MaxVisiblePlayers mas proximos, esten donde esten.
+  # Es un cambio solo del servidor: no puede romper nada en el cliente.
+  # ------------------------------------------------------------------
+  DisableRadiusSync = true
+  VisibilityRadius = 300.0        # ignorado mientras DisableRadiusSync sea true
+
+  # ------------------------------------------------------------------
+  # MaxVisiblePlayers: cuantos coches ve cada jugador a la vez.
+  #
+  # 14 es el valor original de EA (confirmado en capturas de paquetes del
+  # servidor real). NO se toca todavia: hay indicios fuertes de que el
+  # cliente guarda los coches en un array de tamano fijo, y pasarse podria
+  # ser una escritura fuera de rango.
+  #
+  # COMO PROBAR SI SE PUEDE SUBIR (hace falta solo 2 clientes, 5 minutos):
+  #   1. Poner 3 aqui y reiniciar. Si el juego sigue funcionando, el cliente
+  #      lee por longitud y no por cuenta fija -> subirlo es viable.
+  #      Si peta, es array fijo: dejarlo en 14 y no insistir.
+  #   2. Si paso la prueba: 15 -> 16 -> 20 -> 24, mirando si aparecen coches
+  #      fantasma, tirones o cuelgues.
+  #   3. Techo de red: ~38 (por encima el paquete no cabe en un MTU normal).
+  #      El limite real sera el cliente, no la red.
+  # ------------------------------------------------------------------
+  MaxVisiblePlayers = 14
+
+  # Los coches aparecen de uno en uno cada X ms al acercarte. A 200 ms tarda
+  # casi 3 segundos en poblarse el entorno; a 100 se nota bastante mas vivo.
+  PlayerSpawnDelayMs = 100
+
+[FMS]
+  # Servidor de mapa por websocket: emite la posicion de TODOS los jugadores,
+  # sin el limite de 14. Sirve para montar un mapa en vivo en una pantalla
+  # grande durante el evento.
+  #
+  # AllowedOrigin: el freeroam original lo compara como TEXTO EXACTO contra la
+  # cabecera Origin del navegador, y si no coincide rechaza el websocket con un
+  # 403 silencioso (mapa vacio). Por eso el freeroamd.exe de esta carpeta lleva
+  # un parche de tres lineas: con "*" acepta cualquier origen (localhost, otra
+  # IP, el nombre del equipo...). En una LAN privada no hay nada que proteger.
+  # start.ps1 vuelve a poner "*" en cada arranque. No lo edites a mano.
+  ListenAddress = "0.0.0.0:6996"
+  AllowedOrigin = "*"
+  UpdateInterval = 0
